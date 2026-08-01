@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antra — Convention & Celebration Venue in Vijayawada</title>
+<meta name="description" content="Antra is a convention and celebration venue in Patamata, Vijayawada — five spaces, in-house catering, on-site rooms and attentive event coordination.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/metropolis-2" rel="stylesheet">
+
+<style>
+:root{
+  --antra-green-900:#04463A;
+  --antra-green-700:#045F4E;
+  --antra-gold:#C28554;
+  --antra-gold-dark:#9A6A3F;
+  --antra-ivory:#F4F1ED;
+  --antra-warm-white:#FBF8F3;
+  --antra-white:#FFFFFF;
+  --antra-ink:#3A322A;
+  --antra-body:#6B553F;
+  --antra-muted:#8F8478;
+  --antra-line:#E3DACB;
+  --font-head:'Playfair Display',Georgia,serif;
+  --font-body:'Metropolis','Segoe UI',system-ui,-apple-system,sans-serif;
+  --max:1240px;
+  --pad:clamp(20px,5vw,64px);
+  --sp-lg:clamp(56px,9vw,104px);
+  --sp:clamp(56px,7vw,80px);
+  --radius:6px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}*{animation-duration:.01ms!important;transition-duration:.01ms!important;}}
+body{margin:0;background:var(--antra-ivory);color:var(--antra-ink);font-family:var(--font-body);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;}
+img,svg{display:block;max-width:100%;}
+a{color:var(--antra-green-700);text-decoration:none;}
+h1,h2,h3{font-family:var(--font-head);font-weight:400;color:var(--antra-green-900);margin:0;}
+p{margin:0;}
+.wrap{max-width:var(--max);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad);}
+h1{font-size:clamp(38px,5.4vw,68px);line-height:1.05;}
+h2{font-size:clamp(30px,4vw,44px);line-height:1.15;}
+h3{font-size:clamp(22px,2.4vw,26px);line-height:1.25;font-weight:500;}
+.eyebrow{font-family:var(--font-body);font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--antra-gold-dark);}
+.intro{font-size:clamp(17px,1.6vw,18px);line-height:1.65;color:var(--antra-body);}
+.small{font-size:14px;line-height:1.55;color:var(--antra-body);}
+.hl{font-style:italic;color:var(--antra-gold-dark);}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-body);font-size:14px;font-weight:600;letter-spacing:.02em;min-height:44px;padding:0 24px;border-radius:var(--radius);border:1px solid transparent;cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .15s;}
+.btn:focus-visible{outline:2px solid var(--antra-gold);outline-offset:2px;}
+.btn--primary{background:var(--antra-gold);color:var(--antra-green-900);}
+.btn--primary:hover{background:#d0a06f;}
+.btn--secondary{background:var(--antra-green-700);color:var(--antra-white);}
+.btn--secondary:hover{background:#05715f;color:#fff;}
+.btn--ghost{background:transparent;border-color:var(--antra-line);color:var(--antra-green-700);}
+.btn--ghost:hover{border-color:var(--antra-gold);color:var(--antra-gold-dark);}
+.btn--onphoto{background:transparent;border-color:rgba(255,255,255,.6);color:#fff;}
+.btn--onphoto:hover{background:rgba(255,255,255,.12);color:#fff;}
+.tlink{display:inline-flex;align-items:center;gap:7px;font-family:var(--font-body);font-size:14px;font-weight:600;color:var(--antra-green-700);}
+.tlink:hover{color:var(--antra-gold-dark);}
+.tlink svg{width:18px;height:18px;stroke:currentColor;}
+.icon{width:22px;height:22px;stroke:currentColor;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+.sec{padding-top:var(--sp);padding-bottom:var(--sp);}
+.sec--lg{padding-top:var(--sp-lg);padding-bottom:var(--sp-lg);}
+.sec-head{max-width:600px;}
+.sec-head--center{margin-left:auto;margin-right:auto;text-align:center;}
+.sec-head .eyebrow{display:block;margin-bottom:14px;}
+.sec-head h2{margin-bottom:14px;}
+.sec-head p{color:var(--antra-body);}
+.mark-divider{display:block;margin:0 auto 18px;width:52px;height:auto;}
+.mark-divider svg{width:52px;height:auto;}
+.site-header{position:sticky;top:0;z-index:80;background:var(--antra-warm-white);border-bottom:1px solid var(--antra-line);transition:box-shadow .3s;}
+.site-header.scrolled{box-shadow:0 2px 20px rgba(58,50,42,.06);}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:9px;padding-bottom:9px;min-height:66px;}
+.brand{display:inline-flex;align-items:center;}
+.brand svg{height:38px;width:auto;}
+.nav-menu{display:flex;align-items:center;gap:32px;}
+.nav-links{display:flex;align-items:center;gap:28px;list-style:none;margin:0;padding:0;}
+.nav-links a{font-size:14px;font-weight:500;color:var(--antra-ink);letter-spacing:.01em;}
+.nav-links a:hover{color:var(--antra-gold-dark);}
+.nav-links a:focus-visible{outline:2px solid var(--antra-gold);outline-offset:3px;}
+.nav-cta{display:inline-flex;}
+.menu-toggle{display:none;background:none;border:0;padding:8px;cursor:pointer;color:var(--antra-green-900);}
+.menu-toggle .icon{width:26px;height:26px;}
+.drawer{position:fixed;inset:0;z-index:90;visibility:hidden;}
+.drawer[aria-hidden="false"]{visibility:visible;}
+.drawer-overlay{position:absolute;inset:0;background:rgba(4,44,36,.5);opacity:0;transition:opacity .3s;}
+.drawer[aria-hidden="false"] .drawer-overlay{opacity:1;}
+.drawer-panel{position:absolute;top:0;right:0;height:100%;width:min(84vw,340px);background:var(--antra-warm-white);transform:translateX(100%);transition:transform .3s;display:flex;flex-direction:column;padding:24px;gap:8px;}
+.drawer[aria-hidden="false"] .drawer-panel{transform:translateX(0);}
+.drawer-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+.drawer-top svg{height:42px;width:auto;}
+.drawer-close{background:none;border:0;padding:8px;cursor:pointer;color:var(--antra-green-900);}
+.drawer nav a{display:block;padding:14px 4px;font-size:16px;font-weight:500;color:var(--antra-ink);border-bottom:1px solid var(--antra-line);}
+.drawer nav a:hover{color:var(--antra-gold-dark);}
+.drawer .btn{margin-top:20px;width:100%;}
+.hero{position:relative;min-height:560px;display:flex;align-items:center;overflow:hidden;}
+.hero-media{position:absolute;inset:0;z-index:0;}
+.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center right;}
+.hero-media--mobile{display:none;}
+.hero-inner{position:relative;z-index:2;width:100%;}
+.hero-copy{max-width:500px;background:rgba(251,248,243,.7);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);border-radius:var(--radius);padding:clamp(24px,3vw,36px);}
+.hero .eyebrow{color:var(--antra-gold-dark);display:block;margin-bottom:16px;}
+.hero h1{color:var(--antra-green-900);margin-bottom:18px;}
+.hero h1 .hl{color:var(--antra-gold-dark);}
+.hero p{color:var(--antra-body);font-size:clamp(16px,1.7vw,18px);max-width:46ch;margin-bottom:28px;}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;}
+.hero-block{display:none;}
+.hero-stats{border-top:1px solid var(--antra-line);}
+.hero-stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding-top:36px;padding-bottom:36px;}
+.stat{position:relative;padding-left:clamp(16px,3vw,40px);}
+.stat:not(:first-child)::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);height:42px;width:1px;background:var(--antra-line);}
+.stat:first-child{padding-left:0;}
+.stat b{font-family:var(--font-head);font-size:clamp(28px,3vw,38px);font-weight:400;color:var(--antra-green-700);line-height:1;display:block;}
+.stat span{font-size:13px;color:var(--antra-muted);margin-top:6px;display:block;}
+.select-tabs{display:flex;gap:28px;border-bottom:1px solid var(--antra-line);margin:36px 0 32px;overflow-x:auto;scrollbar-width:none;}
+.select-tabs::-webkit-scrollbar{display:none;}
+.select-tab{position:relative;background:none;border:0;padding:0 2px 16px;font-family:var(--font-body);font-size:15px;font-weight:500;color:var(--antra-muted);cursor:pointer;white-space:nowrap;transition:color .2s;}
+.select-tab[aria-selected="true"]{color:var(--antra-green-900);}
+.select-tab[aria-selected="true"]::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--antra-gold);}
+.select-tab:focus-visible{outline:2px solid var(--antra-gold);outline-offset:3px;}
+.feature{display:grid;grid-template-columns:1.4fr 1fr;gap:clamp(24px,4vw,48px);align-items:stretch;}
+.feature-media{position:relative;border-radius:var(--radius);overflow:hidden;min-height:400px;background:var(--antra-line);}
+.feature-media picture{position:absolute;inset:0;}
+.feature-media img{width:100%;height:100%;object-fit:cover;object-position:center;position:absolute;inset:0;}
+.feature-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;border:1px solid rgba(255,255,255,.7);background:rgba(4,44,36,.42);color:#fff;cursor:pointer;transition:background .2s,border-color .2s,transform .15s;-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);}
+.feature-arrow:hover{background:rgba(4,44,36,.66);border-color:#fff;}
+.feature-arrow:focus-visible{outline:2px solid var(--antra-gold);outline-offset:2px;}
+.feature-arrow--prev{left:14px;}
+.feature-arrow--next{right:14px;}
+.feature-arrow .icon{width:20px;height:20px;}
+.feature-body{display:flex;flex-direction:column;justify-content:center;}
+.feature-body .eyebrow{display:block;margin-bottom:12px;}
+.feature-body h3{font-size:clamp(24px,2.6vw,30px);margin-bottom:10px;}
+.feature-body>p{color:var(--antra-body);margin-bottom:22px;max-width:46ch;}
+.spec{display:grid;gap:0;margin-bottom:26px;border-top:1px solid var(--antra-line);}
+.spec>div{display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid var(--antra-line);font-size:14.5px;}
+.spec dt{color:var(--antra-muted);margin:0;}
+.spec dd{color:var(--antra-ink);font-weight:600;margin:0;text-align:right;}
+.feature-cta{display:flex;align-items:center;gap:24px;flex-wrap:wrap;}
+.venue-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:8px;}
+.venue{background:var(--antra-white);border:1px solid var(--antra-line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;height:460px;}
+.venue-figure{flex:0 0 62%;background:var(--antra-line);overflow:hidden;}
+.venue-figure img{width:100%;height:100%;object-fit:cover;}
+.venue-body{flex:1 1 38%;padding:22px 24px;display:flex;flex-direction:column;gap:6px;line-height:1.45;}
+.venue-body .eyebrow{color:var(--antra-gold-dark);}
+.venue-body h3{font-size:21px;line-height:1.25;}
+.venue-body p{color:var(--antra-body);font-size:14px;line-height:1.45;margin:0;}
+.venue-body .tlink{margin-top:auto;padding-top:12px;}
+.services{background:var(--antra-green-900);color:#fff;}
+.services h2{color:#fff;}
+.services .sec-head p{color:#CBD9D3;}
+.services .eyebrow{color:#E9C9A6;}
+.svc-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin:44px 0 56px;}
+.svc-sum{display:flex;flex-direction:column;gap:10px;}
+.svc-sum .icon{color:#E9C9A6;}
+.svc-sum h3{color:#fff;font-size:19px;font-weight:500;}
+.svc-sum p{color:#C1D2CB;font-size:14px;line-height:1.55;}
+.svc-detail{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;}
+.svc-card{display:grid;grid-template-columns:auto 1fr;gap:18px;background:rgba(255,255,255,.04);border:1px solid rgba(233,201,166,.18);border-radius:var(--radius);padding:26px;}
+.svc-card .icon{color:#E9C9A6;}
+.svc-card h3{color:#fff;font-size:18px;font-weight:500;margin-bottom:6px;}
+.svc-card p{color:#C1D2CB;font-size:14px;line-height:1.55;}
+.stories-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:center;}
+.quote-block .mark-divider{margin:0 0 20px;}
+.quote-block blockquote{font-family:var(--font-head);font-style:italic;font-size:clamp(21px,2.5vw,27px);line-height:1.45;color:var(--antra-green-900);margin:0 0 20px;}
+.quote-block cite{font-style:normal;font-size:14px;color:var(--antra-body);display:block;}
+.quote-nav{display:flex;gap:10px;margin-top:26px;}
+.quote-nav button{width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--antra-line);border-radius:50%;background:transparent;color:var(--antra-green-700);cursor:pointer;transition:background .2s,color .2s,border-color .2s;}
+.quote-nav button:hover{background:var(--antra-green-700);color:#fff;border-color:var(--antra-green-700);}
+.quote-nav button:focus-visible{outline:2px solid var(--antra-gold);outline-offset:2px;}
+.quote-nav .icon{width:20px;height:20px;}
+.gallery-preview{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:12px;}
+.gallery-preview figure{margin:0;aspect-ratio:1;border-radius:var(--radius);overflow:hidden;background:var(--antra-line);}
+.gallery-preview img{width:100%;height:100%;object-fit:cover;}
+.gallery-preview a{display:flex;align-items:center;justify-content:center;background:var(--antra-warm-white);border:1px solid var(--antra-line);color:var(--antra-gold-dark);font-weight:600;font-size:14px;text-align:center;border-radius:var(--radius);aspect-ratio:1;}
+.gallery-preview a:hover{border-color:var(--antra-gold);}
+.visit{display:grid;grid-template-columns:1fr 1fr;background:var(--antra-warm-white);}
+.visit-map{position:relative;min-height:440px;background:var(--antra-green-900);}
+.visit-map img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.visit-map .pin{position:absolute;left:24px;bottom:24px;background:rgba(4,70,58,.92);color:#fff;font-size:13px;padding:10px 16px;border-radius:var(--radius);line-height:1.5;max-width:70%;}
+.visit-form{padding:clamp(40px,5vw,72px) var(--pad);}
+.visit-form .eyebrow{display:block;margin-bottom:12px;}
+.visit-form h2{margin-bottom:12px;}
+.visit-form>p{color:var(--antra-body);margin-bottom:12px;max-width:52ch;}
+.visit-contact{display:flex;flex-wrap:wrap;gap:8px 22px;margin-bottom:26px;font-size:14px;}
+.visit-contact a{display:inline-flex;align-items:center;gap:8px;color:var(--antra-green-700);font-weight:600;}
+.visit-contact a:hover{color:var(--antra-gold-dark);}
+.visit-contact .icon{width:18px;height:18px;}
+form{display:grid;gap:16px;max-width:520px;}
+.row-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.field{display:grid;gap:6px;}
+.field label{font-size:13px;font-weight:600;color:var(--antra-ink);}
+.field input,.field select{min-height:46px;border:1px solid var(--antra-line);border-radius:var(--radius);background:var(--antra-white);padding:0 14px;font-family:var(--font-body);font-size:14.5px;color:var(--antra-ink);width:100%;}
+.field textarea{border:1px solid var(--antra-line);border-radius:var(--radius);background:var(--antra-white);padding:12px 14px;font-family:var(--font-body);font-size:14.5px;color:var(--antra-ink);width:100%;resize:vertical;min-height:84px;}
+.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--antra-gold);outline-offset:1px;border-color:var(--antra-gold);}
+.field .err{font-size:12.5px;color:#a23b2d;min-height:0;}
+.form-foot{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:4px;}
+.form-note{font-size:13px;color:var(--antra-muted);}
+.site-footer{background:var(--antra-green-900);color:#C6D6CE;}
+.footer-top{display:grid;grid-template-columns:1.6fr 1fr 1.1fr;gap:40px;padding-top:44px;padding-bottom:34px;}
+.footer-brand svg{height:48px;width:auto;margin-bottom:14px;}
+.footer-brand p{color:#A9C2B7;font-size:14px;max-width:32ch;}
+.footer-col h4{font-family:var(--font-body);font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:#E9C9A6;margin:0 0 16px;}
+.footer-col ul{list-style:none;margin:0;padding:0;display:grid;gap:11px;}
+.footer-col a,.footer-col address{color:#C6D6CE;font-size:14px;font-style:normal;line-height:1.5;}
+.footer-col a:hover{color:#E9C9A6;}
+.footer-cta{margin-top:18px;}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:20px;padding-bottom:28px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#8FA79D;}
+.footer-bottom .links{display:flex;gap:20px;flex-wrap:wrap;}
+.footer-bottom a{color:#8FA79D;}
+.footer-bottom a:hover{color:#E9C9A6;}
+@media(max-width:1024px){
+  .footer-top{grid-template-columns:1fr 1fr;gap:32px;}
+}
+@media(max-width:768px){
+  .hero{min-height:0;display:block;}
+  .hero .hero-inner{display:none;}
+  .hero-media{position:relative;inset:auto;width:100%;}
+  .hero-media img{position:relative;width:100%;height:auto;display:block;object-fit:cover;}
+  .hero-block{display:block;background:var(--antra-warm-white);padding:32px 0 8px;}
+  .hero-block h1{color:var(--antra-green-900);margin:14px 0 14px;}
+  .hero-block h1 .hl{color:var(--antra-gold-dark);}
+  .hero-block .eyebrow{color:var(--antra-gold-dark);display:block;}
+  .hero-block p{color:var(--antra-body);font-size:17px;margin-bottom:24px;max-width:60ch;}
+  .hero-block .hero-cta{display:flex;flex-wrap:wrap;gap:14px;}
+}
+@media(max-width:900px){
+  .nav-menu{display:none;}
+  .menu-toggle{display:inline-flex;}
+  .feature{grid-template-columns:1fr;}
+  .feature-media{min-height:280px;}
+  .venue-grid{grid-template-columns:1fr 1fr;}
+  .venue{height:auto;}
+  .venue-figure{flex:none;aspect-ratio:16/10;}
+  .venue-body{flex:none;}
+  .svc-summary{grid-template-columns:1fr 1fr;gap:28px 24px;}
+  .svc-detail{grid-template-columns:1fr;}
+  .stories-grid{grid-template-columns:1fr;gap:32px;}
+  .visit{grid-template-columns:1fr;}
+  .visit-map{min-height:260px;order:-1;}
+}
+@media(max-width:640px){
+  .hero-stats .wrap{grid-template-columns:1fr 1fr;gap:22px;}
+  .stat{padding-left:0;}
+  .stat::before{display:none!important;}
+  .venue-grid{grid-template-columns:1fr;}
+  .svc-summary{grid-template-columns:1fr;}
+  .row-2{grid-template-columns:1fr;}
+  .gallery-preview{grid-template-columns:1fr 1fr;}
+  .footer-top{grid-template-columns:1fr;}
+  .footer-bottom{justify-content:flex-start;}
+}
+body.no-scroll{overflow:hidden;}
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Antra home"><svg width="183" height="152" viewBox="0 0 183 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.4833 94.2578H14.5715L29.0548 126.565H25.5098L22.0971 118.884H6.90871L3.589 126.565H0L14.4833 94.2578ZM20.8583 116.103C18.5571 110.853 16.5643 106.261 14.5225 101.274C12.4856 106.261 10.4928 110.853 8.19155 116.103H20.8583Z" fill="#C28554"/>
+<path d="M47.6997 103.747C47.3913 103.396 47.0387 102.996 46.7694 102.645C46.7694 103.528 46.8135 104.455 46.8135 105.47V126.569H43.4448V94.2617H43.4889L63.8184 117.61L64.7487 118.713C64.7487 117.83 64.7046 116.946 64.7046 115.887V94.7887H68.0684V127.096H68.0244L47.6948 103.747H47.6997Z" fill="#C28554"/>
+<path d="M96.0607 97.6104V126.565H92.6969V97.6104H82.9092V94.7852H105.893V97.6104H96.0607Z" fill="#C28554"/>
+<path d="M130.83 94.7852C137.562 94.7852 141.68 98.3179 141.68 104.232C141.68 109.043 138.669 112.176 134.683 113.147L142.169 126.565H138.404L131.363 113.635H124.102V126.565H120.738V94.7852H130.834H130.83ZM124.097 97.6104V110.853H130.918C135.525 110.853 138.272 108.379 138.272 104.232C138.272 100.084 135.437 97.6104 130.697 97.6104H124.097Z" fill="#C28554"/>
+<path d="M168.429 94.2578H168.517L183 126.565H179.455L176.042 118.884H160.849L157.529 126.565H153.94L168.424 94.2578H168.429ZM174.809 116.103C172.507 110.853 170.514 106.261 168.473 101.274C166.436 106.261 164.443 110.853 162.142 116.103H174.809Z" fill="#C28554"/>
+<mask id="mask0_262_54" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="52" y="0" width="79" height="77">
+<path d="M108.375 74.1629C110.378 73.2065 112.282 72.0745 114.084 70.8058L125.444 58.3534C126.869 55.8844 128.034 53.2495 128.891 50.478L108.375 74.1629ZM57.2037 57.7435L69.4984 71.2206C71.2268 72.3916 73.0531 73.4261 74.9627 74.3142L54.0113 50.1267C54.8094 52.7957 55.8817 55.3477 57.2037 57.7435ZM52.3809 38.9869C52.3809 39.5139 52.4004 40.0408 52.42 40.5629L77.1024 75.2315C78.0816 75.617 79.0805 75.9732 80.0989 76.2806L52.5522 35.3956C52.4445 36.5764 52.3809 37.7719 52.3809 38.9869ZM91.5612 0H91.4437C90.8757 0 90.3078 0.0195178 89.7398 0.0439151L90.2539 39.8261L87.4679 50.5902L82.0966 1.14179C80.8725 1.44432 79.6778 1.80052 78.5027 2.21039L85.8668 56.7823L84.5938 61.6959L71.4618 5.49915C70.3601 6.15788 69.2879 6.8654 68.2596 7.62659L83.4921 65.9605L82.8115 68.6003L62.433 12.9013C61.5321 13.8967 60.685 14.9458 59.8918 16.029L81.9693 71.8598L81.5678 73.4163L55.8328 22.9871C55.2354 24.3143 54.7017 25.6757 54.2513 27.0761L81.1467 76.588L82.1064 76.8417L91.5074 42.7245L100.908 76.8417L102.103 76.5245L128.842 27.3103C128.401 25.905 127.872 24.5339 127.28 23.2018L101.52 73.6847L101.129 72.1769L123.255 16.2144C122.467 15.1214 121.62 14.0724 120.724 13.0672L100.286 68.9321L99.6206 66.3606L114.922 7.75346C113.893 6.98738 112.826 6.27498 111.724 5.6065L98.5189 62.1204L97.2752 57.3092L104.703 2.28359C103.533 1.86395 102.333 1.49799 101.114 1.19059L95.679 51.1514L92.7363 39.7773L93.4659 0.0487946C92.8343 0.0195178 92.2026 0 91.5612 0ZM130.619 39.0454V38.9332C130.619 37.8353 130.56 36.7472 130.467 35.6688L103.156 76.2074C104.184 75.8853 105.193 75.5194 106.182 75.1193L130.57 40.8606C130.6 40.2555 130.614 39.6505 130.619 39.0454Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_262_54)">
+<mask id="mask1_262_54" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="52" y="0" width="79" height="77">
+<path d="M130.619 0H52.3809V76.8417H130.619V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_262_54)">
+<path d="M130.619 0H52.3809V3.53273H130.619V0Z" fill="#E5A974"/>
+<path d="M130.619 3.53125H52.3809V4.17534H130.619V3.53125Z" fill="#E5A974"/>
+<path d="M130.619 4.17578H52.3809V4.81987H130.619V4.17578Z" fill="#E3A873"/>
+<path d="M130.619 4.82031H52.3809V5.4644H130.619V4.82031Z" fill="#E2A773"/>
+<path d="M130.619 5.46484H52.3809V6.10893H130.619V5.46484Z" fill="#E1A672"/>
+<path d="M130.619 6.10938H52.3809V6.75346H130.619V6.10938Z" fill="#DFA571"/>
+<path d="M130.619 6.75H52.3809V7.39409H130.619V6.75Z" fill="#DEA470"/>
+<path d="M130.619 7.39062H52.3809V8.03471H130.619V7.39062Z" fill="#DDA370"/>
+<path d="M130.619 8.03516H52.3809V8.67925H130.619V8.03516Z" fill="#DBA26F"/>
+<path d="M130.619 8.67969H52.3809V9.32378H130.619V8.67969Z" fill="#DAA16E"/>
+<path d="M130.619 9.32422H52.3809V9.96831H130.619V9.32422Z" fill="#D9A06D"/>
+<path d="M130.619 9.96875H52.3809V10.6128H130.619V9.96875Z" fill="#D89F6D"/>
+<path d="M130.619 10.6133H52.3809V11.2574H130.619V10.6133Z" fill="#D79E6C"/>
+<path d="M130.619 11.2578H52.3809V11.9019H130.619V11.2578Z" fill="#D59D6B"/>
+<path d="M130.619 11.9023H52.3809V12.5464H130.619V11.9023Z" fill="#D49C6B"/>
+<path d="M130.619 12.5469H52.3809V13.191H130.619V12.5469Z" fill="#D39B6A"/>
+<path d="M130.619 13.1875H52.3809V13.8316H130.619V13.1875Z" fill="#D29A69"/>
+<path d="M130.619 13.832H52.3809V14.4761H130.619V13.832Z" fill="#D09969"/>
+<path d="M130.619 14.4766H52.3809V15.1207H130.619V14.4766Z" fill="#CF9868"/>
+<path d="M130.619 15.1211H52.3809V15.7652H130.619V15.1211Z" fill="#CE9767"/>
+<path d="M130.619 15.7656H52.3809V16.4097H130.619V15.7656Z" fill="#CD9666"/>
+<path d="M130.619 16.4102H52.3809V17.0542H130.619V16.4102Z" fill="#CC9666"/>
+<path d="M130.619 17.0547H52.3809V17.6988H130.619V17.0547Z" fill="#CA9565"/>
+<path d="M130.619 17.6992H52.3809V18.3433H130.619V17.6992Z" fill="#C99464"/>
+<path d="M130.619 18.3438H52.3809V18.9878H130.619V18.3438Z" fill="#C89364"/>
+<path d="M130.619 18.9844H52.3809V19.6285H130.619V18.9844Z" fill="#C79263"/>
+<path d="M130.619 19.6289H52.3809V20.273H130.619V19.6289Z" fill="#C69162"/>
+<path d="M130.619 20.2734H52.3809V20.9175H130.619V20.2734Z" fill="#C59062"/>
+<path d="M130.619 20.918H52.3809V21.5621H130.619V20.918Z" fill="#C38F61"/>
+<path d="M130.619 21.5586H52.3809V22.2027H130.619V21.5586Z" fill="#C28E60"/>
+<path d="M130.619 22.2031H52.3809V22.8472H130.619V22.2031Z" fill="#C18E60"/>
+<path d="M130.619 22.8438H52.3809V23.4878H130.619V22.8438Z" fill="#C08D5F"/>
+<path d="M130.619 23.4883H52.3809V24.1324H130.619V23.4883Z" fill="#BF8C5E"/>
+<path d="M130.619 24.1328H52.3809V24.7769H130.619V24.1328Z" fill="#BE8B5E"/>
+<path d="M130.619 24.7773H52.3809V25.4214H130.619V24.7773Z" fill="#BD8A5D"/>
+<path d="M130.619 25.4219H52.3809V26.066H130.619V25.4219Z" fill="#BC895C"/>
+<path d="M130.619 26.0664H52.3809V26.7105H130.619V26.0664Z" fill="#BA885C"/>
+<path d="M130.619 26.7109H52.3809V27.355H130.619V26.7109Z" fill="#B9875B"/>
+<path d="M130.619 27.3555H52.3809V27.9996H130.619V27.3555Z" fill="#B8875A"/>
+<path d="M130.619 28H52.3809V28.6441H130.619V28Z" fill="#B7865A"/>
+<path d="M130.619 28.6406H52.3809V29.2847H130.619V28.6406Z" fill="#B68559"/>
+<path d="M130.619 29.2852H52.3809V29.9292H130.619V29.2852Z" fill="#B58458"/>
+<path d="M130.619 29.9297H52.3809V30.5738H130.619V29.9297Z" fill="#B48358"/>
+<path d="M130.619 30.5742H52.3809V31.2183H130.619V30.5742Z" fill="#B38257"/>
+<path d="M130.619 31.2188H52.3809V31.8628H130.619V31.2188Z" fill="#B28156"/>
+<path d="M130.619 31.8633H52.3809V32.5074H130.619V31.8633Z" fill="#B08156"/>
+<path d="M130.619 32.5078H52.3809V33.1519H130.619V32.5078Z" fill="#AF8055"/>
+<path d="M130.619 33.1523H52.3809V33.7964H130.619V33.1523Z" fill="#AE7F54"/>
+<path d="M130.619 33.7969H52.3809V34.441H130.619V33.7969Z" fill="#AD7E54"/>
+<path d="M130.619 34.4375H52.3809V35.0816H130.619V34.4375Z" fill="#AC7D53"/>
+<path d="M130.619 35.082H52.3809V35.7261H130.619V35.082Z" fill="#AB7C52"/>
+<path d="M130.619 35.7227H52.3809V36.3667H130.619V35.7227Z" fill="#AA7C52"/>
+<path d="M130.619 36.3672H52.3809V37.0113H130.619V36.3672Z" fill="#A97B51"/>
+<path d="M130.619 37.0117H52.3809V37.6558H130.619V37.0117Z" fill="#A87A51"/>
+<path d="M130.619 37.6562H52.3809V38.3003H130.619V37.6562Z" fill="#A77950"/>
+<path d="M130.619 38.3008H52.3809V38.9449H130.619V38.3008Z" fill="#A6784F"/>
+<path d="M130.619 38.9414H52.3809V39.5855H130.619V38.9414Z" fill="#A5774F"/>
+<path d="M130.619 39.5859H52.3809V40.23H130.619V39.5859Z" fill="#A4774E"/>
+<path d="M130.619 40.2305H52.3809V40.8746H130.619V40.2305Z" fill="#A3764D"/>
+<path d="M130.619 40.875H52.3809V41.5191H130.619V40.875Z" fill="#A2754D"/>
+<path d="M130.619 41.5195H52.3809V42.1636H130.619V41.5195Z" fill="#A0744C"/>
+<path d="M130.619 42.1641H52.3809V42.8082H130.619V42.1641Z" fill="#9F734B"/>
+<path d="M130.619 42.8086H52.3809V43.4527H130.619V42.8086Z" fill="#9E734B"/>
+<path d="M130.619 43.4531H52.3809V44.0972H130.619V43.4531Z" fill="#9D724A"/>
+<path d="M130.619 44.0938H52.3809V44.7378H130.619V44.0938Z" fill="#9C714A"/>
+<path d="M130.619 44.7383H52.3809V45.3824H130.619V44.7383Z" fill="#9B7049"/>
+<path d="M130.619 45.3828H52.3809V46.0269H130.619V45.3828Z" fill="#9A6F48"/>
+<path d="M130.619 46.0273H52.3809V46.6714H130.619V46.0273Z" fill="#996F48"/>
+<path d="M130.619 46.6719H52.3809V47.316H130.619V46.6719Z" fill="#986E47"/>
+<path d="M130.619 47.3164H52.3809V47.9605H130.619V47.3164Z" fill="#976D46"/>
+<path d="M130.619 47.9609H52.3809V48.605H130.619V47.9609Z" fill="#966C46"/>
+<path d="M130.619 48.6055H52.3809V49.2496H130.619V48.6055Z" fill="#956C45"/>
+<path d="M130.619 49.25H52.3809V49.8941H130.619V49.25Z" fill="#946B45"/>
+<path d="M130.619 49.8906H52.3809V50.5347H130.619V49.8906Z" fill="#936A44"/>
+<path d="M130.619 50.5312H52.3809V51.1753H130.619V50.5312Z" fill="#926943"/>
+<path d="M130.619 51.1758H52.3809V51.8199H130.619V51.1758Z" fill="#916843"/>
+<path d="M130.619 51.8203H52.3809V52.4644H130.619V51.8203Z" fill="#906842"/>
+<path d="M130.619 52.4648H52.3809V53.1089H130.619V52.4648Z" fill="#8F6741"/>
+<path d="M130.619 53.1094H52.3809V53.7535H130.619V53.1094Z" fill="#8E6641"/>
+<path d="M130.619 53.7539H52.3809V54.398H130.619V53.7539Z" fill="#8D6540"/>
+<path d="M130.619 54.3945H52.3809V55.0386H130.619V54.3945Z" fill="#8C6540"/>
+<path d="M130.619 55.0391H52.3809V55.6832H130.619V55.0391Z" fill="#8B643F"/>
+<path d="M130.619 55.6836H52.3809V56.3277H130.619V55.6836Z" fill="#8A633E"/>
+<path d="M130.619 56.3281H52.3809V56.9722H130.619V56.3281Z" fill="#89623E"/>
+<path d="M130.619 56.9727H52.3809V57.6167H130.619V56.9727Z" fill="#88623D"/>
+<path d="M130.619 57.6172H52.3809V58.2613H130.619V57.6172Z" fill="#87613D"/>
+<path d="M130.619 58.2617H52.3809V58.9058H130.619V58.2617Z" fill="#86603C"/>
+<path d="M130.619 58.9062H52.3809V59.5503H130.619V58.9062Z" fill="#855F3B"/>
+<path d="M130.619 59.5508H52.3809V60.1949H130.619V59.5508Z" fill="#845F3B"/>
+<path d="M130.619 60.1914H52.3809V60.8355H130.619V60.1914Z" fill="#835E3A"/>
+<path d="M130.619 60.8359H52.3809V61.48H130.619V60.8359Z" fill="#825D3A"/>
+<path d="M130.619 61.4805H52.3809V62.1246H130.619V61.4805Z" fill="#815C39"/>
+<path d="M130.619 62.125H52.3809V62.7691H130.619V62.125Z" fill="#805C38"/>
+<path d="M130.619 62.7695H52.3809V63.4136H130.619V62.7695Z" fill="#7F5B38"/>
+<path d="M130.619 63.4141H52.3809V64.0581H130.619V63.4141Z" fill="#7E5A37"/>
+<path d="M130.619 64.0586H52.3809V64.7027H130.619V64.0586Z" fill="#7D5A37"/>
+<path d="M130.619 64.7031H52.3809V65.3472H130.619V64.7031Z" fill="#7C5936"/>
+<path d="M130.619 65.3398H52.3809V65.9839H130.619V65.3398Z" fill="#7C5836"/>
+<path d="M130.619 65.9844H52.3809V66.6285H130.619V65.9844Z" fill="#7B5735"/>
+<path d="M130.619 66.6289H52.3809V67.273H130.619V66.6289Z" fill="#7A5734"/>
+<path d="M130.619 67.2734H52.3809V67.9175H130.619V67.2734Z" fill="#795634"/>
+<path d="M130.619 67.918H52.3809V68.5621H130.619V67.918Z" fill="#785533"/>
+<path d="M130.619 68.5625H52.3809V69.2066H130.619V68.5625Z" fill="#775533"/>
+<path d="M130.619 69.207H52.3809V69.8511H130.619V69.207Z" fill="#765432"/>
+<path d="M130.619 69.8477H52.3809V70.4917H130.619V69.8477Z" fill="#755332"/>
+<path d="M130.619 70.4922H52.3809V71.1363H130.619V70.4922Z" fill="#745331"/>
+<path d="M130.619 71.1367H52.3809V71.7808H130.619V71.1367Z" fill="#735230"/>
+<path d="M130.619 71.7812H52.3809V72.4253H130.619V71.7812Z" fill="#725130"/>
+<path d="M130.619 72.4258H52.3809V73.0699H130.619V72.4258Z" fill="#72512F"/>
+<path d="M130.619 73.0703H52.3809V73.7144H130.619V73.0703Z" fill="#71502F"/>
+<path d="M130.619 73.7148H52.3809V74.3589H130.619V73.7148Z" fill="#704F2E"/>
+<path d="M130.619 74.3594H52.3809V75.0035H130.619V74.3594Z" fill="#6F4F2E"/>
+<path d="M130.619 75.0039H52.3809V75.648H130.619V75.0039Z" fill="#6E4E2D"/>
+<path d="M130.619 75.6445H52.3809V76.2886H130.619V75.6445Z" fill="#6D4D2D"/>
+<path d="M130.619 76.2891H52.3809V76.8404H130.619V76.2891Z" fill="#6D4D2D"/>
+</g>
+</g>
+<path d="M64.9009 151.821V141.105H66.3355V150.616H70.9674V151.821H64.9058H64.9009Z" fill="#C28554"/>
+<path d="M88.2953 148.066C88.2953 150.52 86.7432 151.993 84.1433 151.993C81.5433 151.993 80.0059 150.52 80.0059 148.066V141.098H81.4405V147.958C81.4405 149.656 82.454 150.666 84.1433 150.666C85.8325 150.666 86.8607 149.656 86.8607 147.958V141.098H88.2953V148.066Z" fill="#C28554"/>
+<path d="M106.612 141.105L102.94 146.39L106.72 151.821H105.06L102.132 147.502L99.2042 151.821H97.564L101.344 146.39L97.6717 141.105H99.3168L102.137 145.287L104.977 141.105H106.622H106.612Z" fill="#C28554"/>
+<path d="M116.195 151.821V141.105H122.795V142.311H117.629V145.795H121.992V147H117.629V150.616H123.02V151.821H116.195Z" fill="#C28554"/>
+</svg></a>
+    <div class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="#spaces">Spaces</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Contact</a></li>
+      </ul>
+      <a class="btn btn--primary nav-cta" href="#visit">Plan a visit</a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- mobile drawer -->
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-overlay" data-close></div>
+  <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Site menu">
+    <div class="drawer-top">
+      <span aria-hidden="true"><svg width="183" height="152" viewBox="0 0 183 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.4833 94.2578H14.5715L29.0548 126.565H25.5098L22.0971 118.884H6.90871L3.589 126.565H0L14.4833 94.2578ZM20.8583 116.103C18.5571 110.853 16.5643 106.261 14.5225 101.274C12.4856 106.261 10.4928 110.853 8.19155 116.103H20.8583Z" fill="#C28554"/>
+<path d="M47.6997 103.747C47.3913 103.396 47.0387 102.996 46.7694 102.645C46.7694 103.528 46.8135 104.455 46.8135 105.47V126.569H43.4448V94.2617H43.4889L63.8184 117.61L64.7487 118.713C64.7487 117.83 64.7046 116.946 64.7046 115.887V94.7887H68.0684V127.096H68.0244L47.6948 103.747H47.6997Z" fill="#C28554"/>
+<path d="M96.0607 97.6104V126.565H92.6969V97.6104H82.9092V94.7852H105.893V97.6104H96.0607Z" fill="#C28554"/>
+<path d="M130.83 94.7852C137.562 94.7852 141.68 98.3179 141.68 104.232C141.68 109.043 138.669 112.176 134.683 113.147L142.169 126.565H138.404L131.363 113.635H124.102V126.565H120.738V94.7852H130.834H130.83ZM124.097 97.6104V110.853H130.918C135.525 110.853 138.272 108.379 138.272 104.232C138.272 100.084 135.437 97.6104 130.697 97.6104H124.097Z" fill="#C28554"/>
+<path d="M168.429 94.2578H168.517L183 126.565H179.455L176.042 118.884H160.849L157.529 126.565H153.94L168.424 94.2578H168.429ZM174.809 116.103C172.507 110.853 170.514 106.261 168.473 101.274C166.436 106.261 164.443 110.853 162.142 116.103H174.809Z" fill="#C28554"/>
+<mask id="mask0_262_54" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="52" y="0" width="79" height="77">
+<path d="M108.375 74.1629C110.378 73.2065 112.282 72.0745 114.084 70.8058L125.444 58.3534C126.869 55.8844 128.034 53.2495 128.891 50.478L108.375 74.1629ZM57.2037 57.7435L69.4984 71.2206C71.2268 72.3916 73.0531 73.4261 74.9627 74.3142L54.0113 50.1267C54.8094 52.7957 55.8817 55.3477 57.2037 57.7435ZM52.3809 38.9869C52.3809 39.5139 52.4004 40.0408 52.42 40.5629L77.1024 75.2315C78.0816 75.617 79.0805 75.9732 80.0989 76.2806L52.5522 35.3956C52.4445 36.5764 52.3809 37.7719 52.3809 38.9869ZM91.5612 0H91.4437C90.8757 0 90.3078 0.0195178 89.7398 0.0439151L90.2539 39.8261L87.4679 50.5902L82.0966 1.14179C80.8725 1.44432 79.6778 1.80052 78.5027 2.21039L85.8668 56.7823L84.5938 61.6959L71.4618 5.49915C70.3601 6.15788 69.2879 6.8654 68.2596 7.62659L83.4921 65.9605L82.8115 68.6003L62.433 12.9013C61.5321 13.8967 60.685 14.9458 59.8918 16.029L81.9693 71.8598L81.5678 73.4163L55.8328 22.9871C55.2354 24.3143 54.7017 25.6757 54.2513 27.0761L81.1467 76.588L82.1064 76.8417L91.5074 42.7245L100.908 76.8417L102.103 76.5245L128.842 27.3103C128.401 25.905 127.872 24.5339 127.28 23.2018L101.52 73.6847L101.129 72.1769L123.255 16.2144C122.467 15.1214 121.62 14.0724 120.724 13.0672L100.286 68.9321L99.6206 66.3606L114.922 7.75346C113.893 6.98738 112.826 6.27498 111.724 5.6065L98.5189 62.1204L97.2752 57.3092L104.703 2.28359C103.533 1.86395 102.333 1.49799 101.114 1.19059L95.679 51.1514L92.7363 39.7773L93.4659 0.0487946C92.8343 0.0195178 92.2026 0 91.5612 0ZM130.619 39.0454V38.9332C130.619 37.8353 130.56 36.7472 130.467 35.6688L103.156 76.2074C104.184 75.8853 105.193 75.5194 106.182 75.1193L130.57 40.8606C130.6 40.2555 130.614 39.6505 130.619 39.0454Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_262_54)">
+<mask id="mask1_262_54" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="52" y="0" width="79" height="77">
+<path d="M130.619 0H52.3809V76.8417H130.619V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_262_54)">
+<path d="M130.619 0H52.3809V3.53273H130.619V0Z" fill="#E5A974"/>
+<path d="M130.619 3.53125H52.3809V4.17534H130.619V3.53125Z" fill="#E5A974"/>
+<path d="M130.619 4.17578H52.3809V4.81987H130.619V4.17578Z" fill="#E3A873"/>
+<path d="M130.619 4.82031H52.3809V5.4644H130.619V4.82031Z" fill="#E2A773"/>
+<path d="M130.619 5.46484H52.3809V6.10893H130.619V5.46484Z" fill="#E1A672"/>
+<path d="M130.619 6.10938H52.3809V6.75346H130.619V6.10938Z" fill="#DFA571"/>
+<path d="M130.619 6.75H52.3809V7.39409H130.619V6.75Z" fill="#DEA470"/>
+<path d="M130.619 7.39062H52.3809V8.03471H130.619V7.39062Z" fill="#DDA370"/>
+<path d="M130.619 8.03516H52.3809V8.67925H130.619V8.03516Z" fill="#DBA26F"/>
+<path d="M130.619 8.67969H52.3809V9.32378H130.619V8.67969Z" fill="#DAA16E"/>
+<path d="M130.619 9.32422H52.3809V9.96831H130.619V9.32422Z" fill="#D9A06D"/>
+<path d="M130.619 9.96875H52.3809V10.6128H130.619V9.96875Z" fill="#D89F6D"/>
+<path d="M130.619 10.6133H52.3809V11.2574H130.619V10.6133Z" fill="#D79E6C"/>
+<path d="M130.619 11.2578H52.3809V11.9019H130.619V11.2578Z" fill="#D59D6B"/>
+<path d="M130.619 11.9023H52.3809V12.5464H130.619V11.9023Z" fill="#D49C6B"/>
+<path d="M130.619 12.5469H52.3809V13.191H130.619V12.5469Z" fill="#D39B6A"/>
+<path d="M130.619 13.1875H52.3809V13.8316H130.619V13.1875Z" fill="#D29A69"/>
+<path d="M130.619 13.832H52.3809V14.4761H130.619V13.832Z" fill="#D09969"/>
+<path d="M130.619 14.4766H52.3809V15.1207H130.619V14.4766Z" fill="#CF9868"/>
+<path d="M130.619 15.1211H52.3809V15.7652H130.619V15.1211Z" fill="#CE9767"/>
+<path d="M130.619 15.7656H52.3809V16.4097H130.619V15.7656Z" fill="#CD9666"/>
+<path d="M130.619 16.4102H52.3809V17.0542H130.619V16.4102Z" fill="#CC9666"/>
+<path d="M130.619 17.0547H52.3809V17.6988H130.619V17.0547Z" fill="#CA9565"/>
+<path d="M130.619 17.6992H52.3809V18.3433H130.619V17.6992Z" fill="#C99464"/>
+<path d="M130.619 18.3438H52.3809V18.9878H130.619V18.3438Z" fill="#C89364"/>
+<path d="M130.619 18.9844H52.3809V19.6285H130.619V18.9844Z" fill="#C79263"/>
+<path d="M130.619 19.6289H52.3809V20.273H130.619V19.6289Z" fill="#C69162"/>
+<path d="M130.619 20.2734H52.3809V20.9175H130.619V20.2734Z" fill="#C59062"/>
+<path d="M130.619 20.918H52.3809V21.5621H130.619V20.918Z" fill="#C38F61"/>
+<path d="M130.619 21.5586H52.3809V22.2027H130.619V21.5586Z" fill="#C28E60"/>
+<path d="M130.619 22.2031H52.3809V22.8472H130.619V22.2031Z" fill="#C18E60"/>
+<path d="M130.619 22.8438H52.3809V23.4878H130.619V22.8438Z" fill="#C08D5F"/>
+<path d="M130.619 23.4883H52.3809V24.1324H130.619V23.4883Z" fill="#BF8C5E"/>
+<path d="M130.619 24.1328H52.3809V24.7769H130.619V24.1328Z" fill="#BE8B5E"/>
+<path d="M130.619 24.7773H52.3809V25.4214H130.619V24.7773Z" fill="#BD8A5D"/>
+<path d="M130.619 25.4219H52.3809V26.066H130.619V25.4219Z" fill="#BC895C"/>
+<path d="M130.619 26.0664H52.3809V26.7105H130.619V26.0664Z" fill="#BA885C"/>
+<path d="M130.619 26.7109H52.3809V27.355H130.619V26.7109Z" fill="#B9875B"/>
+<path d="M130.619 27.3555H52.3809V27.9996H130.619V27.3555Z" fill="#B8875A"/>
+<path d="M130.619 28H52.3809V28.6441H130.619V28Z" fill="#B7865A"/>
+<path d="M130.619 28.6406H52.3809V29.2847H130.619V28.6406Z" fill="#B68559"/>
+<path d="M130.619 29.2852H52.3809V29.9292H130.619V29.2852Z" fill="#B58458"/>
+<path d="M130.619 29.9297H52.3809V30.5738H130.619V29.9297Z" fill="#B48358"/>
+<path d="M130.619 30.5742H52.3809V31.2183H130.619V30.5742Z" fill="#B38257"/>
+<path d="M130.619 31.2188H52.3809V31.8628H130.619V31.2188Z" fill="#B28156"/>
+<path d="M130.619 31.8633H52.3809V32.5074H130.619V31.8633Z" fill="#B08156"/>
+<path d="M130.619 32.5078H52.3809V33.1519H130.619V32.5078Z" fill="#AF8055"/>
+<path d="M130.619 33.1523H52.3809V33.7964H130.619V33.1523Z" fill="#AE7F54"/>
+<path d="M130.619 33.7969H52.3809V34.441H130.619V33.7969Z" fill="#AD7E54"/>
+<path d="M130.619 34.4375H52.3809V35.0816H130.619V34.4375Z" fill="#AC7D53"/>
+<path d="M130.619 35.082H52.3809V35.7261H130.619V35.082Z" fill="#AB7C52"/>
+<path d="M130.619 35.7227H52.3809V36.3667H130.619V35.7227Z" fill="#AA7C52"/>
+<path d="M130.619 36.3672H52.3809V37.0113H130.619V36.3672Z" fill="#A97B51"/>
+<path d="M130.619 37.0117H52.3809V37.6558H130.619V37.0117Z" fill="#A87A51"/>
+<path d="M130.619 37.6562H52.3809V38.3003H130.619V37.6562Z" fill="#A77950"/>
+<path d="M130.619 38.3008H52.3809V38.9449H130.619V38.3008Z" fill="#A6784F"/>
+<path d="M130.619 38.9414H52.3809V39.5855H130.619V38.9414Z" fill="#A5774F"/>
+<path d="M130.619 39.5859H52.3809V40.23H130.619V39.5859Z" fill="#A4774E"/>
+<path d="M130.619 40.2305H52.3809V40.8746H130.619V40.2305Z" fill="#A3764D"/>
+<path d="M130.619 40.875H52.3809V41.5191H130.619V40.875Z" fill="#A2754D"/>
+<path d="M130.619 41.5195H52.3809V42.1636H130.619V41.5195Z" fill="#A0744C"/>
+<path d="M130.619 42.1641H52.3809V42.8082H130.619V42.1641Z" fill="#9F734B"/>
+<path d="M130.619 42.8086H52.3809V43.4527H130.619V42.8086Z" fill="#9E734B"/>
+<path d="M130.619 43.4531H52.3809V44.0972H130.619V43.4531Z" fill="#9D724A"/>
+<path d="M130.619 44.0938H52.3809V44.7378H130.619V44.0938Z" fill="#9C714A"/>
+<path d="M130.619 44.7383H52.3809V45.3824H130.619V44.7383Z" fill="#9B7049"/>
+<path d="M130.619 45.3828H52.3809V46.0269H130.619V45.3828Z" fill="#9A6F48"/>
+<path d="M130.619 46.0273H52.3809V46.6714H130.619V46.0273Z" fill="#996F48"/>
+<path d="M130.619 46.6719H52.3809V47.316H130.619V46.6719Z" fill="#986E47"/>
+<path d="M130.619 47.3164H52.3809V47.9605H130.619V47.3164Z" fill="#976D46"/>
+<path d="M130.619 47.9609H52.3809V48.605H130.619V47.9609Z" fill="#966C46"/>
+<path d="M130.619 48.6055H52.3809V49.2496H130.619V48.6055Z" fill="#956C45"/>
+<path d="M130.619 49.25H52.3809V49.8941H130.619V49.25Z" fill="#946B45"/>
+<path d="M130.619 49.8906H52.3809V50.5347H130.619V49.8906Z" fill="#936A44"/>
+<path d="M130.619 50.5312H52.3809V51.1753H130.619V50.5312Z" fill="#926943"/>
+<path d="M130.619 51.1758H52.3809V51.8199H130.619V51.1758Z" fill="#916843"/>
+<path d="M130.619 51.8203H52.3809V52.4644H130.619V51.8203Z" fill="#906842"/>
+<path d="M130.619 52.4648H52.3809V53.1089H130.619V52.4648Z" fill="#8F6741"/>
+<path d="M130.619 53.1094H52.3809V53.7535H130.619V53.1094Z" fill="#8E6641"/>
+<path d="M130.619 53.7539H52.3809V54.398H130.619V53.7539Z" fill="#8D6540"/>
+<path d="M130.619 54.3945H52.3809V55.0386H130.619V54.3945Z" fill="#8C6540"/>
+<path d="M130.619 55.0391H52.3809V55.6832H130.619V55.0391Z" fill="#8B643F"/>
+<path d="M130.619 55.6836H52.3809V56.3277H130.619V55.6836Z" fill="#8A633E"/>
+<path d="M130.619 56.3281H52.3809V56.9722H130.619V56.3281Z" fill="#89623E"/>
+<path d="M130.619 56.9727H52.3809V57.6167H130.619V56.9727Z" fill="#88623D"/>
+<path d="M130.619 57.6172H52.3809V58.2613H130.619V57.6172Z" fill="#87613D"/>
+<path d="M130.619 58.2617H52.3809V58.9058H130.619V58.2617Z" fill="#86603C"/>
+<path d="M130.619 58.9062H52.3809V59.5503H130.619V58.9062Z" fill="#855F3B"/>
+<path d="M130.619 59.5508H52.3809V60.1949H130.619V59.5508Z" fill="#845F3B"/>
+<path d="M130.619 60.1914H52.3809V60.8355H130.619V60.1914Z" fill="#835E3A"/>
+<path d="M130.619 60.8359H52.3809V61.48H130.619V60.8359Z" fill="#825D3A"/>
+<path d="M130.619 61.4805H52.3809V62.1246H130.619V61.4805Z" fill="#815C39"/>
+<path d="M130.619 62.125H52.3809V62.7691H130.619V62.125Z" fill="#805C38"/>
+<path d="M130.619 62.7695H52.3809V63.4136H130.619V62.7695Z" fill="#7F5B38"/>
+<path d="M130.619 63.4141H52.3809V64.0581H130.619V63.4141Z" fill="#7E5A37"/>
+<path d="M130.619 64.0586H52.3809V64.7027H130.619V64.0586Z" fill="#7D5A37"/>
+<path d="M130.619 64.7031H52.3809V65.3472H130.619V64.7031Z" fill="#7C5936"/>
+<path d="M130.619 65.3398H52.3809V65.9839H130.619V65.3398Z" fill="#7C5836"/>
+<path d="M130.619 65.9844H52.3809V66.6285H130.619V65.9844Z" fill="#7B5735"/>
+<path d="M130.619 66.6289H52.3809V67.273H130.619V66.6289Z" fill="#7A5734"/>
+<path d="M130.619 67.2734H52.3809V67.9175H130.619V67.2734Z" fill="#795634"/>
+<path d="M130.619 67.918H52.3809V68.5621H130.619V67.918Z" fill="#785533"/>
+<path d="M130.619 68.5625H52.3809V69.2066H130.619V68.5625Z" fill="#775533"/>
+<path d="M130.619 69.207H52.3809V69.8511H130.619V69.207Z" fill="#765432"/>
+<path d="M130.619 69.8477H52.3809V70.4917H130.619V69.8477Z" fill="#755332"/>
+<path d="M130.619 70.4922H52.3809V71.1363H130.619V70.4922Z" fill="#745331"/>
+<path d="M130.619 71.1367H52.3809V71.7808H130.619V71.1367Z" fill="#735230"/>
+<path d="M130.619 71.7812H52.3809V72.4253H130.619V71.7812Z" fill="#725130"/>
+<path d="M130.619 72.4258H52.3809V73.0699H130.619V72.4258Z" fill="#72512F"/>
+<path d="M130.619 73.0703H52.3809V73.7144H130.619V73.0703Z" fill="#71502F"/>
+<path d="M130.619 73.7148H52.3809V74.3589H130.619V73.7148Z" fill="#704F2E"/>
+<path d="M130.619 74.3594H52.3809V75.0035H130.619V74.3594Z" fill="#6F4F2E"/>
+<path d="M130.619 75.0039H52.3809V75.648H130.619V75.0039Z" fill="#6E4E2D"/>
+<path d="M130.619 75.6445H52.3809V76.2886H130.619V75.6445Z" fill="#6D4D2D"/>
+<path d="M130.619 76.2891H52.3809V76.8404H130.619V76.2891Z" fill="#6D4D2D"/>
+</g>
+</g>
+<path d="M64.9009 151.821V141.105H66.3355V150.616H70.9674V151.821H64.9058H64.9009Z" fill="#C28554"/>
+<path d="M88.2953 148.066C88.2953 150.52 86.7432 151.993 84.1433 151.993C81.5433 151.993 80.0059 150.52 80.0059 148.066V141.098H81.4405V147.958C81.4405 149.656 82.454 150.666 84.1433 150.666C85.8325 150.666 86.8607 149.656 86.8607 147.958V141.098H88.2953V148.066Z" fill="#C28554"/>
+<path d="M106.612 141.105L102.94 146.39L106.72 151.821H105.06L102.132 147.502L99.2042 151.821H97.564L101.344 146.39L97.6717 141.105H99.3168L102.137 145.287L104.977 141.105H106.622H106.612Z" fill="#C28554"/>
+<path d="M116.195 151.821V141.105H122.795V142.311H117.629V145.795H121.992V147H117.629V150.616H123.02V151.821H116.195Z" fill="#C28554"/>
+</svg></span>
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <nav aria-label="Mobile">
+      <a href="#spaces" data-close>Spaces</a>
+      <a href="#services" data-close>Services</a>
+      <a href="#gallery" data-close>Gallery</a>
+      <a href="#visit" data-close>Contact</a>
+    </nav>
+    <a class="btn btn--primary" href="#visit" data-close>Plan a visit</a>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-label="Introduction">
+  <div class="hero-media" aria-hidden="false">
+    <picture>
+      <source media="(max-width:768px)" srcset="Hero page banners/Hero banner - Mobile.jpg">
+      <img src="Hero page banners/Hero banner - Desktop.jpg" alt="A couple sharing a warm moment at a celebration held at Antra Luxe" width="1600" height="690" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow">Patamata &middot; Vijayawada</span>
+      <h1>A venue that holds <span class="hl">the whole occasion</span></h1>
+      <p>Five spaces, in-house kitchens and rooms for the family — Antra Luxe brings the parts of a large gathering together under one roof.</p>
+      <div class="hero-cta">
+        <a class="btn btn--primary" href="#visit">Plan a visit</a>
+        <a class="btn btn--secondary" href="#spaces">Explore our spaces</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- mobile hero content block -->
+<section class="hero-block" aria-label="Introduction">
+  <div class="wrap">
+    <span class="eyebrow">Patamata &middot; Vijayawada</span>
+    <h1>A venue that holds <span class="hl">the whole occasion</span></h1>
+    <p>Five spaces, in-house kitchens and rooms for the family — Antra Luxe brings the parts of a large gathering together under one roof.</p>
+    <div class="hero-cta">
+      <a class="btn btn--primary" href="#visit">Plan a visit</a>
+      <a class="btn btn--secondary" href="#spaces">Explore our spaces</a>
+    </div>
+  </div>
+</section>
+
+<!-- hero statistics -->
+<section class="hero-stats" aria-label="Venue at a glance">
+  <div class="wrap">
+    <div class="stat"><b>1,500</b><span>Seated in the main hall</span></div>
+    <div class="stat"><b>5</b><span>Distinct spaces</span></div>
+    <div class="stat"><b>60</b><span>Rooms on site</span></div>
+    <div class="stat"><b>300</b><span>Car parking spaces</span></div>
+  </div>
+</section>
+
+<!-- ============ FEATURED SPACE SELECTOR ============ -->
+<section class="sec" id="spaces" aria-labelledby="spaces-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Featured spaces</span>
+      <h2 id="spaces-h">Look closer at a single room</h2>
+      <p>Move through each space to see how it is set up, who it suits and what it holds.</p>
+    </div>
+
+    <div class="select-tabs" role="tablist" aria-label="Choose a space" id="tablist"></div>
+
+    <div class="feature">
+      <div class="feature-media">
+        <picture>
+          <source id="featureSrcMobile" media="(max-width:768px)" srcset="">
+          <img id="featureImg" src="" alt="" width="720" height="520" loading="lazy">
+        </picture>
+        <button class="feature-arrow feature-arrow--prev" id="featurePrev" type="button" aria-label="Previous space">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg>
+        </button>
+        <button class="feature-arrow feature-arrow--next" id="featureNext" type="button" aria-label="Next space">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+        </button>
+      </div>
+      <div class="feature-body">
+        <span class="eyebrow" id="featureTag"></span>
+        <h3 id="featureName"></h3>
+        <p id="featureDesc"></p>
+        <dl class="spec" id="featureSpec"></dl>
+        <div class="feature-cta">
+          <a class="btn btn--secondary" href="#visit">Enquire about this space</a>
+          <a class="tlink" href="#gallery">View gallery
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="sec sec--lg services" id="services" aria-labelledby="services-h">
+  <div class="wrap">
+    <div class="sec-head" style="margin-bottom:44px;">
+      <span class="eyebrow">Support</span>
+      <h2 id="services-h">Held together by one team</h2>
+      <p>The parts that usually take a dozen vendors are handled in-house, by people who know the building.</p>
+    </div>
+
+    <div class="svc-detail">
+      <article class="svc-card">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h1a2 2 0 0 0 2-2V2"/><path d="M5 2v20"/><path d="M15 2v20"/><path d="M15 8a4 4 0 0 0 4-4V2"/></svg>
+        <div><h3>Catering &amp; culinary</h3><p>A resident kitchen brigade cooks South Indian, North Indian and continental menus, with Jain, vegan and allergen-aware options. Tastings are arranged before anything is confirmed.</p></div>
+      </article>
+      <article class="svc-card">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></svg>
+        <div><h3>Guest accommodation</h3><p>Sixty rooms and suites sit on the property and are held together as a block, so out-of-town families and the wedding party stay a short walk from the hall.</p></div>
+      </article>
+      <article class="svc-card">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <div><h3>Event coordination</h3><p>One coordinator owns the timeline and the vendors, from the first site visit through to the floor on the day, so the hosts can stay with their guests.</p></div>
+      </article>
+      <article class="svc-card">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9L18 10.5 15.5 6c-.3-.6-.9-1-1.6-1H5c-.7 0-1.3.4-1.6 1L1 10.5V16c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+        <div><h3>Parking &amp; amenities</h3><p>Three hundred parking spaces with valet, house sound and stage lighting, backup power and connectivity — the practical layer a large gathering leans on.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIAL + GALLERY ============ -->
+<section class="sec" id="gallery" aria-labelledby="stories-h">
+  <div class="wrap">
+    <h2 id="stories-h" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Stories and gallery</h2>
+    <div class="stories-grid">
+      <div class="quote-block">
+        <span class="mark-divider" aria-hidden="true"><svg width="102" height="101" viewBox="0 0 102 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M64.8128 100.583L63.2553 101L51 56.1567L38.7447 101L37.4936 100.666L2.43191 35.5886C3.01915 33.7479 3.70851 31.9585 4.49361 30.2141L38.0426 96.4977L38.566 94.4518L9.7851 21.0684C10.8191 19.6382 11.9234 18.2657 13.0979 16.9573L39.6638 90.1676L40.5575 86.6979L20.7 10.0243C22.0404 9.02381 23.4383 8.09385 24.8745 7.22803L41.9936 81.0925L43.6532 74.634L34.0532 2.90532C35.5851 2.36659 37.1426 1.89199 38.7383 1.49435L45.7468 66.4889L49.3787 52.3407L48.7085 0.0577216C49.4681 0.0256541 50.234 0 51 0C51.8553 0 52.7106 0.0256541 53.5596 0.0641351L52.6021 52.2765L56.4383 67.2264L63.5234 1.5649C65.1128 1.96895 66.6766 2.44996 68.2021 3.00152L58.5192 75.3267L60.1404 81.6504L77.3553 7.36913C78.7915 8.24136 80.183 9.18415 81.517 10.1911L61.5702 87.2238L62.4383 90.6037L89.0809 17.1754C90.2489 18.4966 91.3468 19.8755 92.3809 21.3121L63.5362 94.8687L64.0468 96.8505L97.6277 30.4963C98.4 32.2471 99.0894 34.0493 99.6638 35.8964L64.8064 100.583H64.8128ZM80.4383 93.0729L95.2468 76.7056C97.0979 73.4604 98.6234 69.9971 99.7404 66.3542L72.9957 97.4854C75.6128 96.2283 78.0894 94.7468 80.4383 93.0729ZM101.802 46.8828L66.1979 100.166C67.5383 99.7429 68.8532 99.2619 70.1426 98.736L101.936 53.7068C101.974 52.8922 102 52.0649 102 51.2376C102 49.7689 101.923 48.3194 101.802 46.8828ZM6.28723 75.8975L22.3149 93.6116C24.5681 95.1509 26.9489 96.5105 29.4383 97.6778L2.12553 65.886C3.16595 69.3942 4.56383 72.7485 6.28723 75.8975ZM0 51.244C0 51.9366 0.0255282 52.6293 0.0510601 53.3155L32.2277 98.8835C33.5043 99.3902 34.8064 99.8584 36.134 100.262L0.223403 46.5236C0.0829777 48.0757 0 49.647 0 51.244Z" fill="url(#paint0_linear_262_52)"/>
+<defs>
+<linearGradient id="paint0_linear_262_52" x1="51" y1="4.64338" x2="51" y2="100.275" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8B077"/>
+<stop offset="1" stop-color="#7A5737"/>
+</linearGradient>
+</defs>
+</svg></span>
+        <blockquote id="qText">The venue felt thoughtfully planned from the moment our guests arrived. The team managed the flow beautifully, allowing both families to enjoy the evening without worrying about the details.</blockquote>
+        <cite id="qCite">Niharika &amp; Varun &middot; Wedding Reception</cite>
+        <div class="quote-nav">
+          <button id="qPrev" aria-label="Previous testimonial" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg></button>
+          <button id="qNext" aria-label="Next testimonial" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></button>
+        </div>
+      </div>
+      <div class="gallery-preview">
+        <figure><img src="Gallery images/Reception setup.jpg" alt="Reception set up in the main hall" width="320" height="320" loading="lazy"></figure>
+        <figure><img src="Gallery images/Lawn event.jpg" alt="An event on the lawn" width="320" height="320" loading="lazy"></figure>
+        <figure><img src="Gallery images/floral detail.jpg" alt="Table and floral detail" width="320" height="320" loading="lazy"></figure>
+        <a href="#" aria-label="View the full gallery">View full gallery</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION + ENQUIRY ============ -->
+<section class="visit" id="visit" aria-labelledby="visit-h">
+  <div class="visit-map">
+    <span class="pin">Donka Road, Patamata &middot; Vijayawada 520010</span>
+  </div>
+  <div class="visit-form">
+    <span class="eyebrow">Visit &amp; enquire</span>
+    <h2 id="visit-h">At the Heart of Vijayawada</h2>
+    <p>We are easy to reach from across the city, with parking on site and someone to walk you through dates and details in person.</p>
+    <form id="enquiryForm" novalidate>
+      <div class="row-2">
+        <div class="field"><label for="f-first">First name</label><input id="f-first" name="firstName" type="text" autocomplete="given-name" required aria-required="true"><span class="err" data-for="f-first" aria-live="polite"></span></div>
+        <div class="field"><label for="f-last">Last name</label><input id="f-last" name="lastName" type="text" autocomplete="family-name" required aria-required="true"><span class="err" data-for="f-last" aria-live="polite"></span></div>
+      </div>
+      <div class="row-2">
+        <div class="field"><label for="f-email">Email address</label><input id="f-email" name="email" type="email" autocomplete="email" required aria-required="true"><span class="err" data-for="f-email" aria-live="polite"></span></div>
+        <div class="field"><label for="f-phone">Contact number</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required aria-required="true"><span class="err" data-for="f-phone" aria-live="polite"></span></div>
+      </div>
+      <div class="row-2">
+        <div class="field"><label for="f-type">Event type</label>
+          <select id="f-type" name="type">
+            <option value="">Please choose</option>
+            <option>Wedding</option><option>Reception</option><option>Conference</option>
+            <option>Milestone or birthday</option><option>Cultural or social</option><option>Other</option>
+          </select>
+        </div>
+        <div class="field"><label for="f-start">Start date</label><input id="f-start" name="startDate" type="date"></div>
+      </div>
+      <div class="row-2">
+        <div class="field"><label for="f-end">End date</label><input id="f-end" name="endDate" type="date"></div>
+        <div class="field" aria-hidden="true"></div>
+      </div>
+      <div class="field"><label for="f-msg">Message (optional)</label><textarea id="f-msg" name="message" rows="3"></textarea></div>
+      <div class="form-foot">
+        <button class="btn btn--primary" type="submit">Submit enquiry</button>
+      </div>
+      <p class="form-note" id="formStatus" role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-top">
+    <div class="footer-brand">
+      <svg width="183" height="152" viewBox="0 0 183 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.4833 94.2578H14.5715L29.0548 126.565H25.5098L22.0971 118.884H6.90871L3.589 126.565H0L14.4833 94.2578ZM20.8583 116.103C18.5571 110.853 16.5643 106.261 14.5225 101.274C12.4856 106.261 10.4928 110.853 8.19155 116.103H20.8583Z" fill="#C28554"/>
+<path d="M47.6997 103.747C47.3913 103.396 47.0387 102.996 46.7694 102.645C46.7694 103.528 46.8135 104.455 46.8135 105.47V126.569H43.4448V94.2617H43.4889L63.8184 117.61L64.7487 118.713C64.7487 117.83 64.7046 116.946 64.7046 115.887V94.7887H68.0684V127.096H68.0244L47.6948 103.747H47.6997Z" fill="#C28554"/>
+<path d="M96.0607 97.6104V126.565H92.6969V97.6104H82.9092V94.7852H105.893V97.6104H96.0607Z" fill="#C28554"/>
+<path d="M130.83 94.7852C137.562 94.7852 141.68 98.3179 141.68 104.232C141.68 109.043 138.669 112.176 134.683 113.147L142.169 126.565H138.404L131.363 113.635H124.102V126.565H120.738V94.7852H130.834H130.83ZM124.097 97.6104V110.853H130.918C135.525 110.853 138.272 108.379 138.272 104.232C138.272 100.084 135.437 97.6104 130.697 97.6104H124.097Z" fill="#C28554"/>
+<path d="M168.429 94.2578H168.517L183 126.565H179.455L176.042 118.884H160.849L157.529 126.565H153.94L168.424 94.2578H168.429ZM174.809 116.103C172.507 110.853 170.514 106.261 168.473 101.274C166.436 106.261 164.443 110.853 162.142 116.103H174.809Z" fill="#C28554"/>
+<mask id="mask0_262_54" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="52" y="0" width="79" height="77">
+<path d="M108.375 74.1629C110.378 73.2065 112.282 72.0745 114.084 70.8058L125.444 58.3534C126.869 55.8844 128.034 53.2495 128.891 50.478L108.375 74.1629ZM57.2037 57.7435L69.4984 71.2206C71.2268 72.3916 73.0531 73.4261 74.9627 74.3142L54.0113 50.1267C54.8094 52.7957 55.8817 55.3477 57.2037 57.7435ZM52.3809 38.9869C52.3809 39.5139 52.4004 40.0408 52.42 40.5629L77.1024 75.2315C78.0816 75.617 79.0805 75.9732 80.0989 76.2806L52.5522 35.3956C52.4445 36.5764 52.3809 37.7719 52.3809 38.9869ZM91.5612 0H91.4437C90.8757 0 90.3078 0.0195178 89.7398 0.0439151L90.2539 39.8261L87.4679 50.5902L82.0966 1.14179C80.8725 1.44432 79.6778 1.80052 78.5027 2.21039L85.8668 56.7823L84.5938 61.6959L71.4618 5.49915C70.3601 6.15788 69.2879 6.8654 68.2596 7.62659L83.4921 65.9605L82.8115 68.6003L62.433 12.9013C61.5321 13.8967 60.685 14.9458 59.8918 16.029L81.9693 71.8598L81.5678 73.4163L55.8328 22.9871C55.2354 24.3143 54.7017 25.6757 54.2513 27.0761L81.1467 76.588L82.1064 76.8417L91.5074 42.7245L100.908 76.8417L102.103 76.5245L128.842 27.3103C128.401 25.905 127.872 24.5339 127.28 23.2018L101.52 73.6847L101.129 72.1769L123.255 16.2144C122.467 15.1214 121.62 14.0724 120.724 13.0672L100.286 68.9321L99.6206 66.3606L114.922 7.75346C113.893 6.98738 112.826 6.27498 111.724 5.6065L98.5189 62.1204L97.2752 57.3092L104.703 2.28359C103.533 1.86395 102.333 1.49799 101.114 1.19059L95.679 51.1514L92.7363 39.7773L93.4659 0.0487946C92.8343 0.0195178 92.2026 0 91.5612 0ZM130.619 39.0454V38.9332C130.619 37.8353 130.56 36.7472 130.467 35.6688L103.156 76.2074C104.184 75.8853 105.193 75.5194 106.182 75.1193L130.57 40.8606C130.6 40.2555 130.614 39.6505 130.619 39.0454Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_262_54)">
+<mask id="mask1_262_54" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="52" y="0" width="79" height="77">
+<path d="M130.619 0H52.3809V76.8417H130.619V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_262_54)">
+<path d="M130.619 0H52.3809V3.53273H130.619V0Z" fill="#E5A974"/>
+<path d="M130.619 3.53125H52.3809V4.17534H130.619V3.53125Z" fill="#E5A974"/>
+<path d="M130.619 4.17578H52.3809V4.81987H130.619V4.17578Z" fill="#E3A873"/>
+<path d="M130.619 4.82031H52.3809V5.4644H130.619V4.82031Z" fill="#E2A773"/>
+<path d="M130.619 5.46484H52.3809V6.10893H130.619V5.46484Z" fill="#E1A672"/>
+<path d="M130.619 6.10938H52.3809V6.75346H130.619V6.10938Z" fill="#DFA571"/>
+<path d="M130.619 6.75H52.3809V7.39409H130.619V6.75Z" fill="#DEA470"/>
+<path d="M130.619 7.39062H52.3809V8.03471H130.619V7.39062Z" fill="#DDA370"/>
+<path d="M130.619 8.03516H52.3809V8.67925H130.619V8.03516Z" fill="#DBA26F"/>
+<path d="M130.619 8.67969H52.3809V9.32378H130.619V8.67969Z" fill="#DAA16E"/>
+<path d="M130.619 9.32422H52.3809V9.96831H130.619V9.32422Z" fill="#D9A06D"/>
+<path d="M130.619 9.96875H52.3809V10.6128H130.619V9.96875Z" fill="#D89F6D"/>
+<path d="M130.619 10.6133H52.3809V11.2574H130.619V10.6133Z" fill="#D79E6C"/>
+<path d="M130.619 11.2578H52.3809V11.9019H130.619V11.2578Z" fill="#D59D6B"/>
+<path d="M130.619 11.9023H52.3809V12.5464H130.619V11.9023Z" fill="#D49C6B"/>
+<path d="M130.619 12.5469H52.3809V13.191H130.619V12.5469Z" fill="#D39B6A"/>
+<path d="M130.619 13.1875H52.3809V13.8316H130.619V13.1875Z" fill="#D29A69"/>
+<path d="M130.619 13.832H52.3809V14.4761H130.619V13.832Z" fill="#D09969"/>
+<path d="M130.619 14.4766H52.3809V15.1207H130.619V14.4766Z" fill="#CF9868"/>
+<path d="M130.619 15.1211H52.3809V15.7652H130.619V15.1211Z" fill="#CE9767"/>
+<path d="M130.619 15.7656H52.3809V16.4097H130.619V15.7656Z" fill="#CD9666"/>
+<path d="M130.619 16.4102H52.3809V17.0542H130.619V16.4102Z" fill="#CC9666"/>
+<path d="M130.619 17.0547H52.3809V17.6988H130.619V17.0547Z" fill="#CA9565"/>
+<path d="M130.619 17.6992H52.3809V18.3433H130.619V17.6992Z" fill="#C99464"/>
+<path d="M130.619 18.3438H52.3809V18.9878H130.619V18.3438Z" fill="#C89364"/>
+<path d="M130.619 18.9844H52.3809V19.6285H130.619V18.9844Z" fill="#C79263"/>
+<path d="M130.619 19.6289H52.3809V20.273H130.619V19.6289Z" fill="#C69162"/>
+<path d="M130.619 20.2734H52.3809V20.9175H130.619V20.2734Z" fill="#C59062"/>
+<path d="M130.619 20.918H52.3809V21.5621H130.619V20.918Z" fill="#C38F61"/>
+<path d="M130.619 21.5586H52.3809V22.2027H130.619V21.5586Z" fill="#C28E60"/>
+<path d="M130.619 22.2031H52.3809V22.8472H130.619V22.2031Z" fill="#C18E60"/>
+<path d="M130.619 22.8438H52.3809V23.4878H130.619V22.8438Z" fill="#C08D5F"/>
+<path d="M130.619 23.4883H52.3809V24.1324H130.619V23.4883Z" fill="#BF8C5E"/>
+<path d="M130.619 24.1328H52.3809V24.7769H130.619V24.1328Z" fill="#BE8B5E"/>
+<path d="M130.619 24.7773H52.3809V25.4214H130.619V24.7773Z" fill="#BD8A5D"/>
+<path d="M130.619 25.4219H52.3809V26.066H130.619V25.4219Z" fill="#BC895C"/>
+<path d="M130.619 26.0664H52.3809V26.7105H130.619V26.0664Z" fill="#BA885C"/>
+<path d="M130.619 26.7109H52.3809V27.355H130.619V26.7109Z" fill="#B9875B"/>
+<path d="M130.619 27.3555H52.3809V27.9996H130.619V27.3555Z" fill="#B8875A"/>
+<path d="M130.619 28H52.3809V28.6441H130.619V28Z" fill="#B7865A"/>
+<path d="M130.619 28.6406H52.3809V29.2847H130.619V28.6406Z" fill="#B68559"/>
+<path d="M130.619 29.2852H52.3809V29.9292H130.619V29.2852Z" fill="#B58458"/>
+<path d="M130.619 29.9297H52.3809V30.5738H130.619V29.9297Z" fill="#B48358"/>
+<path d="M130.619 30.5742H52.3809V31.2183H130.619V30.5742Z" fill="#B38257"/>
+<path d="M130.619 31.2188H52.3809V31.8628H130.619V31.2188Z" fill="#B28156"/>
+<path d="M130.619 31.8633H52.3809V32.5074H130.619V31.8633Z" fill="#B08156"/>
+<path d="M130.619 32.5078H52.3809V33.1519H130.619V32.5078Z" fill="#AF8055"/>
+<path d="M130.619 33.1523H52.3809V33.7964H130.619V33.1523Z" fill="#AE7F54"/>
+<path d="M130.619 33.7969H52.3809V34.441H130.619V33.7969Z" fill="#AD7E54"/>
+<path d="M130.619 34.4375H52.3809V35.0816H130.619V34.4375Z" fill="#AC7D53"/>
+<path d="M130.619 35.082H52.3809V35.7261H130.619V35.082Z" fill="#AB7C52"/>
+<path d="M130.619 35.7227H52.3809V36.3667H130.619V35.7227Z" fill="#AA7C52"/>
+<path d="M130.619 36.3672H52.3809V37.0113H130.619V36.3672Z" fill="#A97B51"/>
+<path d="M130.619 37.0117H52.3809V37.6558H130.619V37.0117Z" fill="#A87A51"/>
+<path d="M130.619 37.6562H52.3809V38.3003H130.619V37.6562Z" fill="#A77950"/>
+<path d="M130.619 38.3008H52.3809V38.9449H130.619V38.3008Z" fill="#A6784F"/>
+<path d="M130.619 38.9414H52.3809V39.5855H130.619V38.9414Z" fill="#A5774F"/>
+<path d="M130.619 39.5859H52.3809V40.23H130.619V39.5859Z" fill="#A4774E"/>
+<path d="M130.619 40.2305H52.3809V40.8746H130.619V40.2305Z" fill="#A3764D"/>
+<path d="M130.619 40.875H52.3809V41.5191H130.619V40.875Z" fill="#A2754D"/>
+<path d="M130.619 41.5195H52.3809V42.1636H130.619V41.5195Z" fill="#A0744C"/>
+<path d="M130.619 42.1641H52.3809V42.8082H130.619V42.1641Z" fill="#9F734B"/>
+<path d="M130.619 42.8086H52.3809V43.4527H130.619V42.8086Z" fill="#9E734B"/>
+<path d="M130.619 43.4531H52.3809V44.0972H130.619V43.4531Z" fill="#9D724A"/>
+<path d="M130.619 44.0938H52.3809V44.7378H130.619V44.0938Z" fill="#9C714A"/>
+<path d="M130.619 44.7383H52.3809V45.3824H130.619V44.7383Z" fill="#9B7049"/>
+<path d="M130.619 45.3828H52.3809V46.0269H130.619V45.3828Z" fill="#9A6F48"/>
+<path d="M130.619 46.0273H52.3809V46.6714H130.619V46.0273Z" fill="#996F48"/>
+<path d="M130.619 46.6719H52.3809V47.316H130.619V46.6719Z" fill="#986E47"/>
+<path d="M130.619 47.3164H52.3809V47.9605H130.619V47.3164Z" fill="#976D46"/>
+<path d="M130.619 47.9609H52.3809V48.605H130.619V47.9609Z" fill="#966C46"/>
+<path d="M130.619 48.6055H52.3809V49.2496H130.619V48.6055Z" fill="#956C45"/>
+<path d="M130.619 49.25H52.3809V49.8941H130.619V49.25Z" fill="#946B45"/>
+<path d="M130.619 49.8906H52.3809V50.5347H130.619V49.8906Z" fill="#936A44"/>
+<path d="M130.619 50.5312H52.3809V51.1753H130.619V50.5312Z" fill="#926943"/>
+<path d="M130.619 51.1758H52.3809V51.8199H130.619V51.1758Z" fill="#916843"/>
+<path d="M130.619 51.8203H52.3809V52.4644H130.619V51.8203Z" fill="#906842"/>
+<path d="M130.619 52.4648H52.3809V53.1089H130.619V52.4648Z" fill="#8F6741"/>
+<path d="M130.619 53.1094H52.3809V53.7535H130.619V53.1094Z" fill="#8E6641"/>
+<path d="M130.619 53.7539H52.3809V54.398H130.619V53.7539Z" fill="#8D6540"/>
+<path d="M130.619 54.3945H52.3809V55.0386H130.619V54.3945Z" fill="#8C6540"/>
+<path d="M130.619 55.0391H52.3809V55.6832H130.619V55.0391Z" fill="#8B643F"/>
+<path d="M130.619 55.6836H52.3809V56.3277H130.619V55.6836Z" fill="#8A633E"/>
+<path d="M130.619 56.3281H52.3809V56.9722H130.619V56.3281Z" fill="#89623E"/>
+<path d="M130.619 56.9727H52.3809V57.6167H130.619V56.9727Z" fill="#88623D"/>
+<path d="M130.619 57.6172H52.3809V58.2613H130.619V57.6172Z" fill="#87613D"/>
+<path d="M130.619 58.2617H52.3809V58.9058H130.619V58.2617Z" fill="#86603C"/>
+<path d="M130.619 58.9062H52.3809V59.5503H130.619V58.9062Z" fill="#855F3B"/>
+<path d="M130.619 59.5508H52.3809V60.1949H130.619V59.5508Z" fill="#845F3B"/>
+<path d="M130.619 60.1914H52.3809V60.8355H130.619V60.1914Z" fill="#835E3A"/>
+<path d="M130.619 60.8359H52.3809V61.48H130.619V60.8359Z" fill="#825D3A"/>
+<path d="M130.619 61.4805H52.3809V62.1246H130.619V61.4805Z" fill="#815C39"/>
+<path d="M130.619 62.125H52.3809V62.7691H130.619V62.125Z" fill="#805C38"/>
+<path d="M130.619 62.7695H52.3809V63.4136H130.619V62.7695Z" fill="#7F5B38"/>
+<path d="M130.619 63.4141H52.3809V64.0581H130.619V63.4141Z" fill="#7E5A37"/>
+<path d="M130.619 64.0586H52.3809V64.7027H130.619V64.0586Z" fill="#7D5A37"/>
+<path d="M130.619 64.7031H52.3809V65.3472H130.619V64.7031Z" fill="#7C5936"/>
+<path d="M130.619 65.3398H52.3809V65.9839H130.619V65.3398Z" fill="#7C5836"/>
+<path d="M130.619 65.9844H52.3809V66.6285H130.619V65.9844Z" fill="#7B5735"/>
+<path d="M130.619 66.6289H52.3809V67.273H130.619V66.6289Z" fill="#7A5734"/>
+<path d="M130.619 67.2734H52.3809V67.9175H130.619V67.2734Z" fill="#795634"/>
+<path d="M130.619 67.918H52.3809V68.5621H130.619V67.918Z" fill="#785533"/>
+<path d="M130.619 68.5625H52.3809V69.2066H130.619V68.5625Z" fill="#775533"/>
+<path d="M130.619 69.207H52.3809V69.8511H130.619V69.207Z" fill="#765432"/>
+<path d="M130.619 69.8477H52.3809V70.4917H130.619V69.8477Z" fill="#755332"/>
+<path d="M130.619 70.4922H52.3809V71.1363H130.619V70.4922Z" fill="#745331"/>
+<path d="M130.619 71.1367H52.3809V71.7808H130.619V71.1367Z" fill="#735230"/>
+<path d="M130.619 71.7812H52.3809V72.4253H130.619V71.7812Z" fill="#725130"/>
+<path d="M130.619 72.4258H52.3809V73.0699H130.619V72.4258Z" fill="#72512F"/>
+<path d="M130.619 73.0703H52.3809V73.7144H130.619V73.0703Z" fill="#71502F"/>
+<path d="M130.619 73.7148H52.3809V74.3589H130.619V73.7148Z" fill="#704F2E"/>
+<path d="M130.619 74.3594H52.3809V75.0035H130.619V74.3594Z" fill="#6F4F2E"/>
+<path d="M130.619 75.0039H52.3809V75.648H130.619V75.0039Z" fill="#6E4E2D"/>
+<path d="M130.619 75.6445H52.3809V76.2886H130.619V75.6445Z" fill="#6D4D2D"/>
+<path d="M130.619 76.2891H52.3809V76.8404H130.619V76.2891Z" fill="#6D4D2D"/>
+</g>
+</g>
+<path d="M64.9009 151.821V141.105H66.3355V150.616H70.9674V151.821H64.9058H64.9009Z" fill="#C28554"/>
+<path d="M88.2953 148.066C88.2953 150.52 86.7432 151.993 84.1433 151.993C81.5433 151.993 80.0059 150.52 80.0059 148.066V141.098H81.4405V147.958C81.4405 149.656 82.454 150.666 84.1433 150.666C85.8325 150.666 86.8607 149.656 86.8607 147.958V141.098H88.2953V148.066Z" fill="#C28554"/>
+<path d="M106.612 141.105L102.94 146.39L106.72 151.821H105.06L102.132 147.502L99.2042 151.821H97.564L101.344 146.39L97.6717 141.105H99.3168L102.137 145.287L104.977 141.105H106.622H106.612Z" fill="#C28554"/>
+<path d="M116.195 151.821V141.105H122.795V142.311H117.629V145.795H121.992V147H117.629V150.616H123.02V151.821H116.195Z" fill="#C28554"/>
+</svg>
+      <p>A convention and celebration venue in Patamata, Vijayawada.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#spaces">Spaces</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>Donka Road, Patamata,<br>Vijayawada 520010</address>
+      <a class="btn btn--primary footer-cta" href="#visit">Plan a visit</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; 2026 Antra Luxe. All rights reserved.</span>
+    <span class="links"><a href="#">Privacy policy</a><a href="#">Terms of service</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var header=document.getElementById('siteHeader');
+  var onScroll=function(){ if(window.scrollY>40){header.classList.add('scrolled');}else{header.classList.remove('scrolled');} };
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+
+  var drawer=document.getElementById('drawer'),toggle=document.getElementById('menuToggle'),closeBtn=document.getElementById('drawerClose');
+  function openDrawer(){drawer.setAttribute('aria-hidden','false');toggle.setAttribute('aria-expanded','true');document.body.classList.add('no-scroll');var f=drawer.querySelector('a,button');if(f)f.focus();}
+  function closeDrawer(){drawer.setAttribute('aria-hidden','true');toggle.setAttribute('aria-expanded','false');document.body.classList.remove('no-scroll');toggle.focus();}
+  toggle.addEventListener('click',openDrawer);
+  if(closeBtn)closeBtn.addEventListener('click',closeDrawer);
+  drawer.querySelectorAll('[data-close]').forEach(function(el){el.addEventListener('click',closeDrawer);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&drawer.getAttribute('aria-hidden')==='false')closeDrawer();});
+
+  var spaces=[
+    {name:'Grand Banquet Hall',tag:'Indoor \u00b7 Air-conditioned',desc:'The main indoor room \u2014 wide, column-free and set up as easily for a wedding dinner as a company conference.',spec:[['Seated dinner','1,500 guests'],['Floor area','12,000 sq ft'],['Stage & LED wall','Included'],['Best for','Receptions, conferences']],imgD:'Featured-space images (Desktop)/Grand Banquet Hall - Desktop.jpg',imgM:'Featured-space images (Mobile)/Grand Banquet Hall - Mobile.jpg',alt:'The Grand Banquet Hall set for a reception'},
+    {name:'The Lawn',tag:'Open-air \u00b7 Evening-lit',desc:'A landscaped stretch of green, lit for the evening and open to the sky, for the parts of a wedding that spill outdoors.',spec:[['Standing','2,000 guests'],['Area','18,000 sq ft'],['Cover','Marquee available'],['Best for','Mehendi, sangeet, haldi']],imgD:'Featured-space images (Desktop)/The Lawn - Desktop.jpg',imgM:'Featured-space images (Mobile)/The Lawn - Mobile.jpg',alt:'The landscaped lawn lit for an evening gathering'},
+    {name:'Pre-function Foyer',tag:'Arrival \u00b7 Climate-controlled',desc:'A calm indoor area to gather guests before the doors open \u2014 welcome drinks, registration or a small exhibition.',spec:[['Reception','400 guests'],['Area','3,500 sq ft'],['Desks','Included'],['Best for','Welcome drinks, expos']],imgD:'Featured-space images (Desktop)/Pre-function Foyer - Desktop.jpg',imgM:'Featured-space images (Mobile)/Pre-function Foyer - Mobile.jpg',alt:'The climate-controlled pre-function foyer'},
+    {name:'Board Room',tag:'Meetings \u00b7 AV-equipped',desc:'A private, fully wired room for briefings, interviews and smaller working sessions away from the main floor.',spec:[['Boardroom','40 guests'],['Area','900 sq ft'],['Video conf.','Included'],['Best for','Meetings, briefings']],imgD:'Featured-space images (Desktop)/Board Room - Desktop.jpg',imgM:'Featured-space images (Mobile)/Board Room - Mobile.jpg',alt:'The private board room equipped for meetings'},
+    {name:'Guest Suites & Rooms',tag:'Stay \u00b7 On the property',desc:'Rooms and suites on site, held as a block, so families and the wedding party stay a short walk from the hall.',spec:[['Keys','60 rooms'],['Suites','6'],['Rate','Fixed event block'],['Best for','Out-of-town families']],imgD:'Featured-space images (Desktop)/Guest Suites & Rooms - Desktop.jpg',imgM:'Featured-space images (Desktop)/Guest Suites & Rooms - Desktop.jpg',alt:'A guest suite for families staying on the property'}
+  ];
+  var tablist=document.getElementById('tablist');
+  var fName=document.getElementById('featureName'),fTag=document.getElementById('featureTag'),fDesc=document.getElementById('featureDesc'),fSpec=document.getElementById('featureSpec'),fImg=document.getElementById('featureImg'),fSrcM=document.getElementById('featureSrcMobile');
+  var current=0, tabs=[];
+  function render(i){
+    var s=spaces[i];
+    fName.textContent=s.name; fTag.textContent=s.tag; fDesc.textContent=s.desc;
+    fSpec.innerHTML=s.spec.map(function(r){return '<div><dt>'+r[0]+'</dt><dd>'+r[1]+'</dd></div>';}).join('');
+    fImg.src=s.imgD; fImg.alt=s.alt;
+    if(fSrcM)fSrcM.srcset=s.imgM;
+    tabs.forEach(function(t,idx){t.setAttribute('aria-selected',idx===i?'true':'false');t.tabIndex=idx===i?0:-1;});
+    current=i;
+  }
+  spaces.forEach(function(s,i){
+    var b=document.createElement('button');
+    b.className='select-tab';b.type='button';b.textContent=s.name;b.setAttribute('role','tab');
+    b.id='tab-'+i;b.setAttribute('aria-selected','false');b.tabIndex=-1;
+    b.addEventListener('click',function(){render(i);});
+    b.addEventListener('keydown',function(e){
+      var n=null;
+      if(e.key==='ArrowRight'||e.key==='ArrowDown')n=(i+1)%spaces.length;
+      else if(e.key==='ArrowLeft'||e.key==='ArrowUp')n=(i-1+spaces.length)%spaces.length;
+      else if(e.key==='Home')n=0; else if(e.key==='End')n=spaces.length-1;
+      if(n!==null){e.preventDefault();render(n);tabs[n].focus();}
+    });
+    tablist.appendChild(b);tabs.push(b);
+  });
+  render(0);
+
+  var fPrev=document.getElementById('featurePrev'),fNext=document.getElementById('featureNext');
+  if(fPrev&&fNext){
+    fPrev.addEventListener('click',function(){render((current-1+spaces.length)%spaces.length);});
+    fNext.addEventListener('click',function(){render((current+1)%spaces.length);});
+  }
+
+  var quotes=[
+    {t:'The venue felt thoughtfully planned from the moment our guests arrived. The team managed the flow beautifully, allowing both families to enjoy the evening without worrying about the details.',c:'Niharika & Varun \u00b7 Wedding Reception'},
+    {t:'Having the hall, guest rooms and event support in one place made the entire wedding weekend much easier for our family.',c:'Sravya & Aditya \u00b7 Wedding Celebrations'},
+    {t:'The spaces worked equally well for our formal conference presentations and the more intimate family reception the following evening.',c:'Ramesh & Priya \u00b7 Corporate + Social'},
+    {t:'From the morning ceremonies to the late-night celebrations, everything was cared for. We only had to show up and enjoy our own wedding.',c:'Anjali & Karthik \u00b7 Wedding'}
+  ];
+  var qText=document.getElementById('qText'),qCite=document.getElementById('qCite');
+  var qi=0;
+  function showQ(i){qi=i;qText.textContent=quotes[i].t;qCite.innerHTML=quotes[i].c;}
+  document.getElementById('qPrev').addEventListener('click',function(){showQ((qi-1+quotes.length)%quotes.length);});
+  document.getElementById('qNext').addEventListener('click',function(){showQ((qi+1)%quotes.length);});
+
+  var form=document.getElementById('enquiryForm'),status=document.getElementById('formStatus');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var valid=true;
+    form.querySelectorAll('[required]').forEach(function(el){
+      var err=form.querySelector('[data-for="'+el.id+'"]');
+      if(!el.value.trim()){valid=false;if(err)err.textContent='Required';}
+      else{if(err)err.textContent='';}
+    });
+    var email=form.querySelector('[type=email]');
+    if(email&&email.value&&!/^[^@]+@[^@]+\.[^@]+$/.test(email.value)){
+      valid=false;var err=form.querySelector('[data-for="'+email.id+'"]');if(err)err.textContent='Enter a valid email';
+    }
+    if(valid){status.hidden=false;status.textContent='Thank you \u2014 your enquiry has been noted. We will be in touch shortly.';}
+  });
+})();
+</script>
+</body>
+</html>
