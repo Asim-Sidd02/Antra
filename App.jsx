@@ -313,8 +313,8 @@ const APP_HTML = `
   <section class="hero" aria-label="Introduction" data-reveal>
     <div class="hero-media" aria-hidden="false">
       <picture>
-        <source media="(max-width:768px)" srcset="Hero page banners/Hero banner - Mobile.jpg" />
-        <img src="Hero page banners/Hero banner - Desktop.jpg" alt="A couple sharing a warm moment at a celebration held at Antra Luxe" width="1600" height="690" fetchpriority="high" />
+        <source media="(max-width:768px)" srcset="/Hero page banners/Hero banner - Mobile.jpg" />
+        <img src="/Hero page banners/Hero banner - Desktop.jpg" alt="A couple sharing a warm moment at a celebration held at Antra Luxe" width="1600" height="690" fetchpriority="high" />
       </picture>
     </div>
     <div class="wrap hero-inner">
@@ -441,9 +441,9 @@ const APP_HTML = `
           </div>
         </div>
         <div class="gallery-preview">
-          <figure data-reveal-item><img src="Gallery images/Reception setup.jpg" alt="Reception set up in the main hall" width="320" height="320" loading="lazy" /></figure>
-          <figure data-reveal-item><img src="Gallery images/Lawn event.jpg" alt="An event on the lawn" width="320" height="320" loading="lazy" /></figure>
-          <figure data-reveal-item><img src="Gallery images/floral detail.jpg" alt="Table and floral detail" width="320" height="320" loading="lazy" /></figure>
+          <figure data-reveal-item><img src="/Gallery images/Reception setup.jpg" alt="Reception set up in the main hall" width="320" height="320" loading="lazy" /></figure>
+          <figure data-reveal-item><img src="/Gallery images/Lawn event.jpg" alt="An event on the lawn" width="320" height="320" loading="lazy" /></figure>
+          <figure data-reveal-item><img src="/Gallery images/floral detail.jpg" alt="Table and floral detail" width="320" height="320" loading="lazy" /></figure>
           <a href="#" aria-label="View the full gallery">View full gallery</a>
         </div>
       </div>
@@ -592,11 +592,11 @@ export default function App() {
     });
 
     const spaces = [
-      { name: 'Grand Banquet Hall', tag: 'Indoor · Air-conditioned', desc: 'The main indoor room — wide, column-free and set up as easily for a wedding dinner as a company conference.', spec: [['Seated dinner', '1,500 guests'], ['Floor area', '12,000 sq ft'], ['Stage & LED wall', 'Included'], ['Best for', 'Receptions, conferences']], imgD: 'Featured-space images (Desktop)/Grand Banquet Hall - Desktop.jpg', imgM: 'Featured-space images (Mobile)/Grand Banquet Hall - Mobile.jpg', alt: 'The Grand Banquet Hall set for a reception' },
-      { name: 'The Lawn', tag: 'Open-air · Evening-lit', desc: 'A landscaped stretch of green, lit for the evening and open to the sky, for the parts of a wedding that spill outdoors.', spec: [['Standing', '2,000 guests'], ['Area', '18,000 sq ft'], ['Cover', 'Marquee available'], ['Best for', 'Mehendi, sangeet, haldi']], imgD: 'Featured-space images (Desktop)/The Lawn - Desktop.jpg', imgM: 'Featured-space images (Mobile)/The Lawn - Mobile.jpg', alt: 'The landscaped lawn lit for an evening gathering' },
-      { name: 'Pre-function Foyer', tag: 'Arrival · Climate-controlled', desc: 'A calm indoor area to gather guests before the doors open — welcome drinks, registration or a small exhibition.', spec: [['Reception', '400 guests'], ['Area', '3,500 sq ft'], ['Desks', 'Included'], ['Best for', 'Welcome drinks, expos']], imgD: 'Featured-space images (Desktop)/Pre-function Foyer - Desktop.jpg', imgM: 'Featured-space images (Mobile)/Pre-function Foyer - Mobile.jpg', alt: 'The climate-controlled pre-function foyer' },
-      { name: 'Board Room', tag: 'Meetings · AV-equipped', desc: 'A private, fully wired room for briefings, interviews and smaller working sessions away from the main floor.', spec: [['Boardroom', '40 guests'], ['Area', '900 sq ft'], ['Video conf.', 'Included'], ['Best for', 'Meetings, briefings']], imgD: 'Featured-space images (Desktop)/Board Room - Desktop.jpg', imgM: 'Featured-space images (Mobile)/Board Room - Mobile.jpg', alt: 'The private board room equipped for meetings' },
-      { name: 'Guest Suites & Rooms', tag: 'Stay · On the property', desc: 'Rooms and suites on site, held as a block, so families and the wedding party stay a short walk from the hall.', spec: [['Keys', '60 rooms'], ['Suites', '6'], ['Rate', 'Fixed event block'], ['Best for', 'Out-of-town families']], imgD: 'Featured-space images (Desktop)/Guest Suites & Rooms - Desktop.jpg', imgM: 'Featured-space images (Desktop)/Guest Suites & Rooms - Desktop.jpg', alt: 'A guest suite for families staying on the property' }
+      { name: 'Grand Banquet Hall', tag: 'Indoor · Air-conditioned', desc: 'The main indoor room — wide, column-free and set up as easily for a wedding dinner as a company conference.', spec: [['Seated dinner', '1,500 guests'], ['Floor area', '12,000 sq ft'], ['Stage & LED wall', 'Included'], ['Best for', 'Receptions, conferences']], imgD: '/Featured-space images (Desktop)/Grand Banquet Hall - Desktop.jpg', imgM: '/Featured-space images (Mobile)/Grand Banquet Hall - Mobile.jpg', alt: 'The Grand Banquet Hall set for a reception' },
+      { name: 'The Lawn', tag: 'Open-air · Evening-lit', desc: 'A landscaped stretch of green, lit for the evening and open to the sky, for the parts of a wedding that spill outdoors.', spec: [['Standing', '2,000 guests'], ['Area', '18,000 sq ft'], ['Cover', 'Marquee available'], ['Best for', 'Mehendi, sangeet, haldi']], imgD: '/Featured-space images (Desktop)/The Lawn - Desktop.jpg', imgM: '/Featured-space images (Mobile)/The Lawn - Mobile.jpg', alt: 'The landscaped lawn lit for an evening gathering' },
+      { name: 'Pre-function Foyer', tag: 'Arrival · Climate-controlled', desc: 'A calm indoor area to gather guests before the doors open — welcome drinks, registration or a small exhibition.', spec: [['Reception', '400 guests'], ['Area', '3,500 sq ft'], ['Desks', 'Included'], ['Best for', 'Welcome drinks, expos']], imgD: '/Featured-space images (Desktop)/Pre-function Foyer - Desktop.jpg', imgM: '/Featured-space images (Mobile)/Pre-function Foyer - Mobile.jpg', alt: 'The climate-controlled pre-function foyer' },
+      { name: 'Board Room', tag: 'Meetings · AV-equipped', desc: 'A private, fully wired room for briefings, interviews and smaller working sessions away from the main floor.', spec: [['Boardroom', '40 guests'], ['Area', '900 sq ft'], ['Video conf.', 'Included'], ['Best for', 'Meetings, briefings']], imgD: '/Featured-space images (Desktop)/Board Room - Desktop.jpg', imgM: '/Featured-space images (Mobile)/Board Room - Mobile.jpg', alt: 'The private board room equipped for meetings' },
+      { name: 'Guest Suites & Rooms', tag: 'Stay · On the property', desc: 'Rooms and suites on site, held as a block, so families and the wedding party stay a short walk from the hall.', spec: [['Keys', '60 rooms'], ['Suites', '6'], ['Rate', 'Fixed event block'], ['Best for', 'Out-of-town families']], imgD: '/Featured-space images (Desktop)/Guest Suites & Rooms - Desktop.jpg', imgM: '/Featured-space images (Desktop)/Guest Suites & Rooms - Desktop.jpg', alt: 'A guest suite for families staying on the property' }
     ];
 
     const tablist = document.getElementById('tablist');
