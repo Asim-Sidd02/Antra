@@ -168,8 +168,9 @@ h3{font-size:clamp(22px,2.4vw,26px);line-height:1.25;font-weight:500;}
 .gallery-preview a:hover{border-color:var(--antra-gold);}
 .visit{display:grid;grid-template-columns:1fr 1fr;background:var(--antra-warm-white);}
 .visit-map{position:relative;min-height:440px;background:var(--antra-green-900);}
-.visit-map img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
-.visit-map .pin{position:absolute;left:24px;bottom:24px;background:rgba(4,70,58,.92);color:#fff;font-size:13px;padding:10px 16px;border-radius:var(--radius);line-height:1.5;max-width:70%;}
+.visit-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:saturate(.9);}
+.visit-map .pin{position:absolute;left:24px;bottom:24px;z-index:1;background:rgba(4,70,58,.92);color:#fff;font-size:13px;padding:10px 16px;border-radius:var(--radius);line-height:1.5;max-width:70%;text-decoration:none;transition:background .2s ease;}
+.visit-map .pin:hover{background:rgba(4,70,58,1);}
 .visit-form{padding:clamp(40px,5vw,72px) var(--pad);}
 .visit-form .eyebrow{display:block;margin-bottom:12px;}
 .visit-form h2{margin-bottom:12px;}
@@ -452,7 +453,14 @@ const APP_HTML = `
 
   <section class="visit" id="visit" aria-labelledby="visit-h" data-reveal>
     <div class="visit-map">
-      <span class="pin">Donka Road, Patamata &middot; Vijayawada 520010</span>
+      <iframe
+        title="ANTRA LUXE location on Google Maps"
+        src="https://www.google.com/maps?q=16.4886531,80.6642461&z=16&output=embed"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <a class="pin" href="https://www.google.com/maps/place/?q=place_id:ChIJafwXdwD7NToRGnYNvoU6zLw" target="_blank" rel="noopener noreferrer">Donka Road, Patamata &middot; Vijayawada 520010</a>
     </div>
     <div class="visit-form">
       <span class="eyebrow">Visit &amp; enquire</span>
